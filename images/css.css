@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding: 0; margin: 0;
+}
+body{
+	 font-family:"新宋体"; font-size:12px; line-height:27px;
+	}
+
+ul,li,dt,dl,dd{
+	list-style-type:none; padding:0px; margin:0px;
+	}
+img{
+	border:0px; display:block;
+	}
+a{
+	text-decoration:none;
+}
+.clear{ clear:both; display:inline;}
+.main{ width:960px; margin:0 auto; overflow:hidden; background:url(../images/bg.jpg) top left no-repeat #f0f0f0;}
+.cont{ overflow:hidden; width:830px; background-color:#FFFFFF; padding:10px 10px 0px 20px; margin:20px 50px 50px 50px;}
+.nav1{ width:830px; margin-bottom:10px; display:block; overflow:hidden;}
+.nav1 li{ float:right; padding-right:10px;}
+.nav1 li a{ border:#cdcdcd solid 1px; width:86px; color:#b10000; text-align:center; display:block; line-height:20px;}
+.nav1 li a:hover{ color:#000000;}
+.nav2{ float:left; width:150px; margin-right:20px; line-height:25px; display:block;}
+.nav2 li{ border-bottom:#cdcdcd dashed 1px;}
+.nav2 li a{ color:#000000;}
+.nav2 li a:hover{ color:#b10000;}
+.dh{ overflow:hidden; width:830px;}
+#tpqh {width:660px; height:260px; overflow:hidden; position:relative; float:left;}
+#tpqh ul {height:260px; position:absolute;}
+#tpqh ul li {float:left; width:660px; height:260px; overflow:hidden; position:relative; background:#000;}
+#tpqh .btnBg {position:absolute; width:660px; height:27px; left:0; bottom:0; background:#000;}
+#tpqh .btn {position:absolute; width:660px; height:18px; left:0; bottom:5px; padding-left:530px;}
+#tpqh .btn span {display:inline-block; _display:inline; _zoom:1; width:20px; height:20px; line-height:20px; text-align:center; font-size:12px; font-family:"Microsoft YaHei",SimHei; margin-right:10px; cursor:pointer; color:#fff;}
+#tpqh .btn span.on {background:#000; color:#fcc;}
+.nr-1{ overflow:hidden; padding-top:20px;}
+.nr-1 a{ color:#b10000;}
+.nr-1 a:hover{ color:#b10000; text-decoration:underline;}
+.nr-1 p{ padding-top:10px;}
+.nr-2{ overflow:hidden; padding-top:20px; padding-bottom:10px; display:inline-block;}
+.zr{ float:left; border:#cdcdcd solid 1px; padding:10px; width:190px; overflow:hidden; margin-top:10px;}
+.zr img{ width:190px; height:267px;}
+.nr-2 p{ float:right; width:600px; margin-top:10px;}
+.footer{ text-align:center; padding-bottom:20px;}
+
+/*关于中购联*/
+.nr-3{ overflow:hidden; padding-top:20px; padding-bottom:30px; display:inline-block;}
+.fl{ float:left;}
+.nr-3 p{ width:600px; padding-right:20px; padding-top:10px;}
+.lb{float:right; width:210px; padding-top:10px;}
+
+
+/*服务内容*/
+.xbt{ font-size:14px; text-align:center; color:#b10000; background:url(../images/xdh-bg.jpg) left top no-repeat; width:97px; height:31px; display:block; font-weight:bold; line-height:31px;}
+.jlxt-ul{ width:830px; overflow:hidden; display:block;}
+.jlxt-ul li{ float:left; width:400px; padding-left:15px;}
+.butt{ padding-bottom:20px;}
+
+/*中购联LOGO*/
+.nr-4{ overflow:hidden; padding-top:20px; padding-bottom:30px; display:inline-block;}
+.logo{ padding-top:10px;}
+.logo img{ width:223px; height:251px;}
+.nr-4 p{ float:right; width:580px; padding-top:10px;}
+
+
+/*历史大记事*/
+.ls-ul{ padding:20px;}
+
+/*联系我们*/
+.con-ul{ width:830px; overflow:hidden; display:block; padding-top:20px;}
+.con-ul li{ float:left; overflow:hidden; width:415px; display:block; margin-bottom:20px;}
+
+
+/*中购联购物中心发展委员会*/
+
+.vyh{ width:830px; overflow:hidden; background:url(../images/wyh.jpg) top left no-repeat; margin-top:20px; display:inline-block;}
+.abq{ line-height:40px; color:#b10000; font-size:13px; overflow:hidden; display:block; width:830px; text-align:right;}
+.abq:hover{ color:#000000;}
+#LL{ line-height:31px; display:block; overflow:hidden;}
+#LL li{ float:left; background:url(../images/vyh.jpg) top left no-repeat; width:192px; height:31px; text-align:center; margin:10px 0px 0px 20px; display: inline;}
+#d1,#d2,#d3{ width:800px; overflow:hidden; margin:20px 0px 20px 20px;}
+#d2{display:none;}
+#d3{display:none;}
+
+.a1{ color:#000000;}
+.a1:hover{ color:#b10000;}
+.vyh-ul{ overflow:hidden;}
+.vyh-ul li{ border-bottom:#cdcdcd solid 1px; padding-bottom:10px; padding-top:10px; display:block;}
+.vyh-ul img{ width:100px; height:120px; border:#cdcdcd dashed 1px; padding:3px; float:left; margin-right:10px;}
+.vyh-ul a{ color:#333333;}
+.vyh-ul a:hover{ color:#b10000;}
+
+
+/*加入中购联*/
+.join{ overflow:hidden; margin:20px 10px 20px 10px; width:810px; display:block;}
+.tab, .tabOn
+        {
+            list-style:none;
+            float: left;
+            margin-right:10px;
+            height: 31px;
+			width:97px;
+			text-align:center;
+        }
+        .tabOn
+        {
+		color:#b10000;
+        }
+        .content, .contentOn
+        {
+            display: none;
+            width: 810px;
+			overflow:hidden;
+        }
+        .contentOn
+        {
+            display: block;
+        }
+        .tabWrap, .zuih
+        {
+            width: 810px;
+            margin: auto;
+            float: left;
+            position: relative;
+			margin-bottom:40px;
+        }
+        .divContent
+        {
+		overflow:hidden;
+        }
+        .ul, tabUL
+        {
+            float: left;
+            width: 100%;
+			padding-top:10px;
+		}
+        .tabUL
+        {
+            display: none;
+        }
+
+.chbg{ background:url(../images/vyh.jpg) left top no-repeat;}
+.dubg{ background:url(../images/xdh-bg.jpg) left top no-repeat;}
+.j1{ background:url(../images/j1.jpg) top left no-repeat;}
+.j2{ background:url(../images/j2.jpg) top left no-repeat;}
+.j3{ background:url(../images/j3.jpg) top left no-repeat;}
+.j4{ background:url(../images/j4.jpg) top left no-repeat;}
+.aj{ line-height:40px; color:#b10000; font-size:13px; overflow:hidden; display:block; width:810px; text-align:right;}
+.aj:hover{ color:#000000;}
+.left-bg{ background:url(../images/jion-bg.jpg) left center no-repeat; padding-left:17px;}
+.join-ul{ width:400px; overflow:hidden; display:block;}
+.jion-li{ width:197px; height:31px; text-align:center; margin-bottom:10px; margin-top:10px;}
+.b1{ color:#b10000;}
+.pa{ padding-left:100px; width:280px; overflow:hidden; display:block;}
+
+
+.down{line-height:40px; color:#b10000; font-size:13px; overflow:hidden; display:block; width:810px; text-align:right;}
+.down a{ color:#b10000;}
+.down a:hover{ color:#000000; text-decoration:underline;}
+
+
+
+
+
+
