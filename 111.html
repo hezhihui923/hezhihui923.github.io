@@ -1,83 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>幻灯图集</title>
+<style type="text/css">
+body{margin:0;padding:0; background : #000 ;  color : #ccc ; width : 100%; height : 100%; overflow:hidden;cursor:hand}
+#cover{width : 100%; overflow:hidden;position:relative ;  }
+#cover img{ position:absolute;left:0;top:0 ; opacity:0.1}
+#leftbtn{ position:absolute; left : 0 ;top:40% ; 
+background: url("/jscss/demoimg/201101/prev.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 51px;
+    line-height: 51px;
+    overflow: hidden;
+    text-indent: -99px;
+    width: 55px; cursor : pointer ; }
+#rightbtn{ 
+position:absolute; right : 0 ;top:40% ; 
+background: url("/jscss/demoimg/201101/next.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 51px;
+    line-height: 51px;
+    overflow: hidden;
+    text-indent: -99px;
+    width: 55px; cursor : pointer ; }
+#thumb { position:absolute ; left:0;bottom:0; height : 100px ;display:none}
+#thumb li{float:left;}
+#num{position:absolute ; left:5px;bottom:10px;font-size : 24px ; font-family : Arial ; font-weight : bold ;}
+#loading{
+position:absolute ;
+background-image: url("/jscss/demoimg/201101/loader.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width : 100% ;
+    height : 100px ;
+top:40%;
+display : none ;
+    }
+</style>
+<script language="JavaScript" type="text/javascript">
+if (navigator.platform == "Win32" && navigator.appName == "Microsoft Internet Explorer" && window.attachEvent) {
+window.attachEvent("onload", enableAlphaImages);
+}
+function enableAlphaImages(){
+var rslt = navigator.appVersion.match(/MSIE (\d+\.\d+)/, '');
+var itsAllGood = (rslt != null && Number(rslt[1]) >= 5.5);
+if (itsAllGood) {
+for (var i=0; i<document.all.length; i++){
+var obj = document.all[i];
+var bg = obj.currentStyle.backgroundImage;
+var img = document.images[i];
+if (bg && bg.match(/\.png/i) != null) {
+var img = bg.substring(5,bg.length-2);
+var offset = obj.style["background-position"];
+obj.style.filter =
+"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+img+"', sizingMethod='crop')";
+obj.style.backgroundImage = "url('http://image.dili360.com/photo/0907/touming.gif')";//替换透明PNG的图片
+obj.style["background-position"] = offset; // reapply
+} else if (img && img.src.match(/\.png$/i) != null) {
+var src = img.src;
+img.style.width = img.width + "px";
+img.style.height = img.height + "px";
+img.style.filter =
+"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+src+"', sizingMethod='crop')"
+img.src = "http://image.dili360.com/photo/0907/touming.gif";//替换透明PNG的图片
+}
+}
+}
+}
+(function(){
+  var isReady=false; //判断onDOMReady方法是否已经被执行过
+ var readyList= [];//把需要执行的方法先暂存在这个数组里
+  var timer;//定时器句柄
+ ready=function(fn) {
+ if (isReady )
+ fn.call( document);
+ else
+ readyList.push( function() { return fn.call(this);});
+ return this;
+ }
+ var onDOMReady=function(){
+ for(var i=0;i<readyList.length;i++){
+ readyList[i].apply(document);
+ }
+ readyList = null;
+ }
+ var bindReady = function(evt){
+ if(isReady) return;
+ isReady=true;
+ onDOMReady.call(window);
+ if(document.removeEventListener){
+ document.removeEventListener("DOMContentLoaded", bindReady, false);
+ }else if(document.attachEvent){
+ document.detachEvent("onreadystatechange", bindReady);
+ if(window == window.top){
+ clearInterval(timer);
+ timer = null;
+ }
+ }
+ };
+ if(document.addEventListener){
+ document.addEventListener("DOMContentLoaded", bindReady, false);
+ }else if(document.attachEvent){
+ document.attachEvent("onreadystatechange", function(){
+ if((/loaded|complete/).test(document.readyState))
+ bindReady();
+ });
+ if(window == window.top){
+ timer = setInterval(function(){
+ try{
+ isReady||document.documentElement.doScroll('left');//在IE下用能否执行doScroll判断 dom是否加载完毕
+ }catch(e){
+ return;
+ }
+ bindReady();
+ },5);
+ }
+ }
+ })();
+</script>
+</head>
+<body>
+<div id="loading"></div>
+<div id="cover">
+</div>
+<div id="leftbtn">上一张</div>
+<div id="rightbtn">下一张</div>
+<div id="num"><span id="curNum">1</span>/<span id="allNum">20</span></div>
+<script type="text/javascript">
+var $=function(obj){
+return document.getElementById(obj)
+}
+var windowHeight=document.documentElement.clientHeight;
+$("cover").style.height=windowHeight+"px"; 
+ //读取小图地址载入大图
+var imgArray = new Array()
+imgArray[0]="http://www.huabian.com/uploadfile/2014/0816/20140816105710628.jpg"
+imgArray[1]="http://www.huabian.com/uploadfile/2014/0816/20140816105710628.jpg"
+imgArray[2]="http://www.huabian.com/uploadfile/2014/0816/20140816105710891.jpg"
+imgArray[3]="http://www.huabian.com/uploadfile/2014/0816/20140816105710288.jpg"
+imgArray[4]="http://www.huabian.com/uploadfile/2014/0816/20140816105711906.jpg"
+imgArray[5]="http://www.huabian.com/uploadfile/2014/0816/20140816105711693.jpg"
+imgArray[6]="http://www.huabian.com/uploadfile/2014/0816/20140816105711195.jpg"
 
-<!DOCTYPE HTML> <html> <head> <meta http-equiv="Content-Type"
-    content="text/html; charset=utf-8"> <meta name="viewport"
-    content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"
-    /> <title>手机版html5图片放大浏览模式</title> <style> html{padding:0px;margin:0px
-        auto;-webkit-text-size-adjust:none;}
-    body{background:#FFF;padding:0px;margin:0px
-        auto;font-size:15px;color:#444;font-family:Helvetica,Microsoft
-        YaHei,Microsoft JhengHei;} a{color:#444;text-decoration:none;}
-    ol,ul,li,dl,dd,dt{padding:0;margin:0;list-style:none;}
-    form,p{padding:0;margin:0;} i,em{font-style:normal;} textarea
-    {resize:none} img{border:none;} .spanclass{display:none;} .body
-    {margin:0 auto;overflow:hidden;} /* 读图模式 20141217 lianglixing */
-    .body{margin:0 10px;text-align:center;} .body img {max-width:60%;border:
-    none;} .m-dt{width: 100%;height: 100%;overflow: hidden;display: none;}
-    .m-dt .swipe-wrap,.m-dt .swipe-con{height: 100%;width: 100%;text-align:
-    center;} .m-dt .pic{display:block;width: 100%;height: 100%;color: #fff;}
-    .m-dt .pic:before,.m-dt a:before{display:
-        inline-block;content:"";height: 100%;width: 0;vertical-align: middle;}
-    .m-dt img{display:inline-block;max-width: 100%;max-height:
-        100%;width:auto;height:auto;vertical-align: middle;background:none;}
-    .m-dt .slideBtm,.m-dt .slideTp{width:100%;height:
-        40px;line-height:40px;position:
-        fixed;left:0;background:rgba(55,64,83,.5);overflow:hidden;} .m-dt
-    .slideBtm{bottom: 0;} .m-dt .slideTp{top:0;} .m-dt .slideTp
-    i{-webkit-transform:translate(0px, 0px)
-        translateZ(0px);display:inline-block;width:30px;height:40px;float:left;}
-    .m-dt .slideTp i::before{position: absolute;left: 10px;top:
-        50%;margin-top: -4px;content: "";width: 8px;height: 8px;border-width:
-        2px;overflow: hidden;border-color: transparent transparent #fff
-        #fff;border-style: solid;-webkit-transform:
-        rotate(45deg);-moz-transform: rotate(45deg);-o-transform:
-        rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}
-    .m-dt .swipe-num,.m-dt .swipe-cmtCount{color: #fff;font-size: 14px;}
-    .m-dt .swipe-num{font-family:Arial, Helvetica, sans-serif;margin:0
-        30px;display:block;text-align:center;} .m-dt
-    .swipe-cmtCount{float:right;width:30px;} .m-dt
-    .swipe-cmtCount::after{position: absolute;right:
-        10px;top:50%;margin-top:-7px;content: "";width: 8px;height:
-        8px;border-width: 2px;overflow: hidden;border-color: transparent
-        transparent #fff #fff;border-style: solid;-webkit-transform:
-        rotate(-45deg);-moz-transform: rotate(-45deg);-o-transform:
-        rotate(-45deg);-ms-transform: rotate(-45deg);transform: rotate(-45deg);}
-    </style> </head> <body> <div class="body" id="Jlazy_img"><div
-                id="JartCon"> <p><img alt="陈坤最新写真" index="1"
-                    src="http://www.huabian.com/uploadfile/2014/0816/20140816105709266.jpg">
-                    </p> <p><img alt="陈坤最新写真" index="2"
-                        src="http://www.huabian.com/uploadfile/2014/0816/20140816105709871.jpg">
-                        </p> <p><img alt="陈坤最新写真" index="3"
-                            src="http://www.huabian.com/uploadfile/2014/0816/20140816105710628.jpg">
-                            </p> <p><img alt="陈坤最新写真" index="4"
-                                src="http://www.huabian.com/uploadfile/2014/0816/20140816105710628.jpg">
-                                </p> <p><img alt="陈坤最新写真" index="5"
-                                    src="http://www.huabian.com/uploadfile/2014/0816/20140816105710891.jpg">
-                                    </p> <p><img alt="陈坤最新写真" index="6"
-                                        src="http://www.huabian.com/uploadfile/2014/0816/20140816105710288.jpg">
-                                        </p> <p><img alt="陈坤最新写真" index="7"
-                                            src="http://www.huabian.com/uploadfile/2014/0816/20140816105711906.jpg">
-                                            </p> <p><img alt="陈坤最新写真" index="8"
-                                                src="http://www.huabian.com/uploadfile/2014/0816/20140816105711693.jpg">
-                                                </p> <p><img alt="陈坤最新写真" index="9"
-                                                    src="http://www.huabian.com/uploadfile/2014/0816/20140816105711195.jpg">
-                                                    </p> <p><img alt="陈坤最新写真" index="10"
-                                                        src="http://www.huabian.com/uploadfile/2014/0816/20140816105712179.jpg">
-                                                        </p> <p><img alt="陈坤最新写真" index="11"
-                                                            src="http://www.huabian.com/uploadfile/2014/0816/20140816105712114.jpg">
-                                                            </p> <p><img alt="陈坤最新写真" index="12" src="
-                                                                http://www.huabian.com/uploadfile/2014/0816/20140816105712192.jpg"> </p>
-                                                                <p><img alt="陈坤最新写真" index="13"
-                                                                    src="http://www.huabian.com/uploadfile/2014/0816/20140816105713700.jpg">
-                                                                    </p> <p><img alt="陈坤最新写真" index="14"
-                                                                        src="http://www.huabian.com/uploadfile/2014/0816/20140816105713533.jpg">
-                                                                        </p> <p><img alt="陈坤最新写真" index="15"
-                                                                            src="http://www.huabian.com/uploadfile/2014/0818/20140818114022188.jpg">
-                                                                        </p> </div> </div> <!-- 放大浏览图开始 --> <div class="m-dt" id="Jslider"> <div
-                                                                            class="swipe-wrap" id="Jslider-wrap"> <div class="swipe-con"></div>
-                                                                        </div> <div class="slideTp"> <i id="JslideBack"></i><a href=""
-                                                                            class="swipe-cmtCount" id="JslideCmtCount" target="_blank"
-                                                                            title="点击下载"></a><span class="swipe-num" id="JslideNum"></span></div>
-                                                                        </div> <!-- 放大浏览图结束 --> <script type="text/javascript"
-                                                                            src="http://www.86y.org/js/swipe.extend.1.1-min.js"></script> <script
-                                                                                type="text/javascript" src="http://www.86y.org/js/slide.js"></script>
-    </body> </html>
+var num=0;
+$("allNum").innerHTML=imgArray.length;
+//设置透明度
+var _opacity=0;
+function fadein(obj){
+_opacity+=15;
+if(document.all){
+ obj.style.filter= "Alpha(opacity="+_opacity+")";    
+}
+else{
+obj.style.opacity=_opacity/100;
+}
+var set=setTimeout(function(){fadein(obj)},55)
+if(_opacity>=100){ clearTimeout(set);_opacity=0; }
+}
+function imgready(event,nextimgobj){
+                  $("loading").style.display="none";
+                  $("cover").innerHTML="";
+                   $("cover").appendChild(nextimgobj);  
+          var event=event||window.event;      
+                   nextimgobj.style.left=-event.clientX*((nextimgobj.width-$("cover").offsetWidth)/$("cover").offsetWidth)+"px";
+ nextimgobj.style.top=-event.clientY*((nextimgobj.height-$("cover").offsetHeight)/$("cover").offsetHeight)+"px";
+ $("cover").onmousemove=function (event){
+ var event=event||window.event;
+ nextimgobj.style.left=-event.clientX*((nextimgobj.width-this.offsetWidth)/this.offsetWidth)+"px";
+ nextimgobj.style.top=-event.clientY*((nextimgobj.height-this.offsetHeight)/this.offsetHeight)+"px";
+ } 
+ }
+ 
+//下一张
+$("rightbtn").onclick=function (event){
+ num++;
+if(num>=imgArray.length){
+num=0
+}
+var nextimgobj=new Image();
+ nextimgobj.src=imgArray[num];
+ var nextimgobj2=new Image();
+ nextimgobj2.src=imgArray[num+1];
+//获取数组下标为当前图片索引
+for(i=0;i<=imgArray.length;i++)
+{
+if(imgArray[i]==imgArray[num]) 
+{
+$("curNum").innerHTML=i+1;
+}
+}
+  $("cover").innerHTML="";
+$("loading").style.display="block";
+ var appname = navigator.appName.toLowerCase();
+    if (appname.indexOf("netscape") == -1)
+    {       
+  if(nextimgobj.readyState == "complete")
+            {
+                imgready(event,nextimgobj);
+                  fadein(nextimgobj)
+            }
+nextimgobj.onreadystatechange = function () {
+            if(nextimgobj.readyState == "complete")
+            {
+           imgready(event,nextimgobj);
+ fadein(nextimgobj)
+            }
+        };
+}
+else{ 
+ //ff
+nextimgobj.onload=function(){
+if (this.complete ==true) {
+imgready(event,nextimgobj);
+fadein(nextimgobj);
+ }
+  
+}
+}
+}
+//上一张
+$("leftbtn").onclick=function(event){
+//获取数组下标为当前图片索引
+num--;
+if(num<0){
+num=imgArray.length-1;
+}
+for(i=0;i<imgArray.length;i++)
+{
+if(imgArray[i]==imgArray[num]) 
+{$("curNum").innerHTML=i+1;}
+}
+var nextimgobj=new Image();
+ nextimgobj.src=imgArray[num];
+  var nextimgobj2=new Image();
+ nextimgobj2.src=imgArray[num-1];
+  $("cover").innerHTML="";
+$("loading").style.display="block";
+ //ie
+ var appname = navigator.appName.toLowerCase();
+    if (appname.indexOf("netscape") == -1)
+    {       
+  if(nextimgobj.readyState == "complete")
+            {
+                  imgready(event,nextimgobj);
+                  fadein(nextimgobj);
+            }
+nextimgobj.onreadystatechange = function () {
+            if(nextimgobj.readyState == "complete")
+            {
+     
+     imgready(event,nextimgobj);
+     fadein(nextimgobj); 
+           }
+        };
+}
+else{ 
+ //ff
+nextimgobj.onload=function(){
+if (this.complete ==true) {
+imgready(event,nextimgobj);
+ fadein(nextimgobj)
+ }
+  
+}
+}
+}
+ready(function(){
+var nextimgobj=new Image();
+ nextimgobj.src=imgArray[num];
+ var nextimgobj2=new Image();
+ nextimgobj2.src=imgArray[num+1];
+$("loading").style.display="block";
+ //ie
+ var appname = navigator.appName.toLowerCase();
+    if (appname.indexOf("netscape") == -1)
+    {       
+  if(nextimgobj.readyState == "complete")
+            {
+                 $("loading").style.display="none";
+                  $("cover").innerHTML="";
+                   $("cover").appendChild(nextimgobj);  
+                   
+fadein(nextimgobj);
+ $("cover").onmousemove=function (event){
+ var event=event||window.event;
+ nextimgobj.style.left=-event.clientX*((nextimgobj.width-this.offsetWidth)/this.offsetWidth)+"px";
+ nextimgobj.style.top=-event.clientY*((nextimgobj.height-this.offsetHeight)/this.offsetHeight)+"px";
+ }
+            }
+nextimgobj.onreadystatechange = function () {
+            if(nextimgobj.readyState == "complete")
+            {
+     
+$("loading").style.display="none";
+                  $("cover").innerHTML="";
+                   $("cover").appendChild(nextimgobj);  
+                   
+ fadein(nextimgobj);
+                    $("cover").onmousemove=function (event){
+ var event=event||window.event;
+ nextimgobj.style.left=-event.clientX*((nextimgobj.width-this.offsetWidth)/this.offsetWidth)+"px"; 
+ nextimgobj.style.top=-event.clientY*((nextimgobj.height-this.offsetHeight)/this.offsetHeight)+"px";
+ }
+ 
+            }
+        };
+}
+else{ 
+nextimgobj.onload=function(){
+if (this.complete ==true) {
+ $("loading").style.display="none";
+                  $("cover").innerHTML="";
+                   $("cover").appendChild(nextimgobj);  
+                   
+ fadein(nextimgobj);
+                    $("cover").onmousemove=function (event){
+ var event=event||window.event;
+ nextimgobj.style.left=-event.clientX*((nextimgobj.width-this.offsetWidth)/this.offsetWidth)+"px"; 
+ nextimgobj.style.top=-event.clientY*((nextimgobj.height-this.offsetHeight)/this.offsetHeight)+"px";
+ } 
+ }
+  
+}
+}
+ 
+});
+</script>
+</body>
+</html>
