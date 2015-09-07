@@ -54,17 +54,70 @@
                 
                 
                 
-                <li><a href="http://www.huabian.com/uploadfile/2014/0816/20140816105710628.jpg"><img src="http://www.huabian.com/uploadfile/2014/0816/20140816105710628.jpg"></img></a></li>
-                <li><a href="http://www.codefans.net/jscss/demoimg/201101/001.jpg"><img src="http://www.codefans.net/jscss/demoimg/201101/001.jpg"></img></a></li>
-                <li><a href="http://www.huabian.com/uploadfile/2014/0816/20140816105710288.jpg"><img src="http://www.huabian.com/uploadfile/2014/0816/20140816105710288.jpg"></img></a></li>
-                <li><a href="http://www.huabian.com/uploadfile/2014/0816/20140816105711906.jpg"><img src="http://www.huabian.com/uploadfile/2014/0816/20140816105711906.jpg"></img></a></li>
-                <li><a href="http://www.huabian.com/uploadfile/2014/0816/20140816105711693.jpg"><img src="http://www.huabian.com/uploadfile/2014/0816/20140816105711693.jpg"></img></a></li>
-                <li><a href="http://www.huabian.com/uploadfile/2014/0816/20140816105711195.jpg"><img src="http://www.huabian.com/uploadfile/2014/0816/20140816105711195.jpg"></img></a></li>
+                <li><a href="http://www.huabian.com/uploadfile/2014/0816/20140816105710628.jpg"><img src="http://www.huabian.com/uploadfile/2014/0816/20140816105710628.jpg"  onload="fixImage(this)"></a></li>
+                <li><a href="http://www.codefans.net/jscss/demoimg/201101/001.jpg"><img src="http://www.codefans.net/jscss/demoimg/201101/001.jpg"  onload="fixImage(this)"></a></li>
+                <li><a href="http://www.huabian.com/uploadfile/2014/0816/20140816105710288.jpg"><img src="http://www.huabian.com/uploadfile/2014/0816/20140816105710288.jpg"  onload="fixImage(this)"></a></li>
+                <li><a href="http://www.huabian.com/uploadfile/2014/0816/20140816105711906.jpg"><img src="http://www.huabian.com/uploadfile/2014/0816/20140816105711906.jpg"   onload="fixImage(this)"></a></li>
+                <li><a href="http://www.huabian.com/uploadfile/2014/0816/20140816105711693.jpg"><img src="http://www.huabian.com/uploadfile/2014/0816/20140816105711693.jpg"  onload="fixImage(this)"></a></li>
+                <li><a href="http://www.huabian.com/uploadfile/2014/0816/20140816105711195.jpg"><img src="http://www.huabian.com/uploadfile/2014/0816/20140816105711195.jpg" onload="fixImage(this)"></a></li>
                
             </ul>
         </div>
-        <div class= "numClass"><span id="page">0</span>/<span>9</span></div>
+        <div class= "numClass"><span id="page">0</span>/<span>10</span></div>
         <script src="http://zeptojs.com/zepto.min.js"></script>
+        
+        
+        <script>
+            var screenHeight =  screen.availHeight;
+            var screenWidth =  screen.availWidth;
+            
+            
+        function fixImage(img) {
+            //    var w = screen.availWidth;
+            var w = document.documentElement.clientWidth
+            var h = document.documentElement.clientHeight;
+            //    if(w > 320){
+            //        w = 320;
+            //    }
+            //    if(h > 560){
+            //        h = 560;
+            //    }
+            var newImg = new Image(); //获得图片的原始尺寸
+            newImg.src = img.src;
+            var lh;  //用于保存img.height，IE下隐藏的图片读取不到，需currentStyle解决
+            if (newImg.width/newImg.height >= w/h) {
+                if (newImg.width > w) {
+                    img.width = w;
+                    img.height = w * newImg.height / newImg.width;
+                    lh = window.ActiveXObject ? parseInt(img.currentStyle['height']) : img.height;
+                    img.style.marginTop = (h - lh)/2 + 'px';  //顺手垂直居中
+                    
+                } else {
+                    img.width = newImg.width;
+                    img.height = newImg.height;
+                    lh = window.ActiveXObject ? parseInt(img.currentStyle['height']) : img.height;
+                    img.style.marginTop = (h - lh)/2 + 'px';  //顺手垂直居中
+                }
+            } else {
+                if (newImg.height > h) {
+                    img.height = h;
+                    img.width = newImg.width * h / newImg.height;
+                } else {
+                    img.width = newImg.width;
+                    img.height = newImg.height;
+                }
+            }
+            //    
+            
+            $(".main_image").css({height: h + "px"});
+            
+            //     $(".main_image li").css({height: img.height + "px"});
+        }
+        
+        
+            </script>
+        
+        
         <script >
             (function($){
             /*
