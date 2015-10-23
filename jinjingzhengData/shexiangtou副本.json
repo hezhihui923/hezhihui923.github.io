@@ -125,6 +125,11 @@
   "pointy": "39.895492"
   },
   {
+  "pathname": "双桥东天桥 由东向西",
+  "pointx": "116.595424",
+  "pointy": "39.915326"
+  },
+  {
   "pathname": "四惠东双方向",
   "pointx": "116.522117",
   "pointy": "39.914122"
@@ -505,20 +510,4 @@
   {"pathname":"三元桥西北（内外环双向）","pointx":"116.464667","pointy":"39.966867"},
   {"pathname":"三元西桥西北（内外环双向）","pointx":"116.453543","pointy":"39.96861"},
   {"pathname":"官园桥东天桥（东西双向）","pointx":"116.365467","pointy":"39.938213"},
-  {"pathname":"功德寺桥南 南北双向","pointx":"116.26363","pointy":"40.007485","title":"功德寺桥南","description":"南北双向"},
-  {"pathname":"平房桥西 由东向西","pointx":"116.544486","pointy":"39.947645","title":"平房桥西","description":"由东向西"},
-  {"pathname":"机场辅路望京公园小铁门附近 双向","pointx":"116.503469","pointy":"40.001326","title":"机场辅路望京公园小铁门附近","description":" 双向"},
-  {"pathname":"富乐大街与迎宾路交汇 东向西","pointx":"116.646272","pointy":"40.348122","title":"富乐大街与迎宾路交汇","description":"东向西"},
-  {"pathname":"青春路环岛南 北向南","pointx":"116.636832","pointy":"40.34061","title":"标题","description":" 北向南"},
-  {"pathname":"南华大街与青春路交汇 西向东","pointx":"116.637842","pointy":"40.314943","title":"南华大街与青春路交汇","description":" 西向东"},
-  {"pathname":"开放路与兴怀大街交汇 南向北","pointx":"116.651334","pointy":"40.327623","title":"开放路与兴怀大街交汇","description":"  南向北"},
-  {"pathname":"迎宾路中医院路口附近 南向北","pointx":"116.643528","pointy":"40.325347","title":"迎宾路中医院路口附近","description":"南向北"},
-  {"pathname":"衙门口桥西 东西双向","pointx":"116.215315","pointy":"39.897989","title":"衙门口桥西","description":"东西双向"},
-  {"pathname":"康化桥西 双向","pointx":"116.529421","pointy":"39.842092","title":"康化桥西","description":"双向"},
-  {"pathname":"荣华桥北 南北双向（可走最内侧车道）","pointx":"116.494531","pointy":"39.82467","title":"荣华桥北","description":"南北双向，最内侧车道不拍"},
-  {"pathname":"京良路和樊羊路路口 东西双向","pointx":"116.32008","pointy":"39.794822","title":"京良路和樊羊路路口","description":"东西双向"},
-  {"pathname":"光明桥西 东西双向","pointx":"116.447994","pointy":"39.890259","title":"光明桥西","description":"东西双向"},
-  {"pathname":"西马庄收费站 双向","pointx":"116.638942","pointy":"39.922772","title":"西马庄收费站","description":"双向"},
-  {"pathname":"双桥东天桥 双向（最内侧车道不拍）","pointx":"116.594853","pointy":"39.915094","title":"双桥东天桥","description":"双向，最内侧车道不拍"}
-  
   ]
