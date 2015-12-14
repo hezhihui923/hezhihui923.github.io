@@ -150,7 +150,11 @@
   {"pathname":"蓟门桥南东侧天桥由南向北，可走内侧车道","pointx":"116.361517","pointy":"39.967393","title":"蓟门桥南东侧天桥由南向北","description":"可走内侧车道"},
   {"pathname":"西什库大街南向北","pointx":"116.386657","pointy":"39.930171","title":"西什库大街","description":"南向北"},
   {"pathname":"南门仓胡同东口 西向东","pointx":"116.440419","pointy":"39.935451","title":"南门仓胡同东口","description":"西向东"},
-  {"pathname":"劲松桥下 东西双向","pointx":"116.467984","pointy":"39.89007","title":"劲松桥下","description":"东西双向"}
+  {"pathname":"劲松桥下 东西双向","pointx":"116.467984","pointy":"39.89007","title":"劲松桥下","description":"东西双向"},
+  {"pathname":"亮马桥路与麦子店街交汇处西 东向西","pointx":"116.47486","pointy":"39.957038","title":"亮马桥路与麦子店街交汇处西","description":"东向西"},
+  {"pathname":"上清桥北天桥 主路双向","pointx":"116.358015","pointy":"40.031728","title":"上清桥北","description":"主路双向"},
+  {"pathname":"远通桥西天桥 由东向西","pointx":"116.544818","pointy":"39.915571","title":"远通桥西天桥","description":"东西双向"}
+
 
   
   
