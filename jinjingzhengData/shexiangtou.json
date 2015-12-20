@@ -134,7 +134,6 @@
   {"pathname":"和平东桥南 南北双向","pointx":"116.431367","pointy":"39.973921","title":"和平东桥南","description":"南北双向"},
   {"pathname":"京开高速玉泉营桥下 进京方向","pointx":"116.353029","pointy":"39.855366","title":"京开高速玉泉营桥下","description":"进京方向"},
   {"pathname":"德茂桥西双向（最内侧车道拍不到）","pointx":"116.428725","pointy":"39.792286","title":"德茂桥西","description":"双向可走最内侧车道"},
-  {"pathname":"顾家庄桥南 双向 早晚高峰拍，避开中间车道即可","pointx":"116.44653","pointy":"40.022529","title":"顾家庄桥南","description":"早晚高峰拍，走辅路或避开中间车道即可"},
   {"pathname":"亢山前路与龙水路路口西10米处","pointx":"116.265216","pointy":"40.223611","title":"亢山前路与龙水路路口","description":"路口西10米处"},
   {"pathname":"三环主辅路联想桥西，双向，主路避免走中间车道，辅路走外侧","pointx":"116.337632","pointy":"39.973156","title":"三环主辅路联想桥西","description":"双向，避免走中间车道，辅路走外侧"},
   {"pathname":"天宁寺桥南 南北双向（待确认）","pointx":"116.359565","pointy":"39.902359","title":"天宁寺桥南","description":"双向，待确认"},
@@ -153,10 +152,10 @@
   {"pathname":"劲松桥下 东西双向","pointx":"116.467984","pointy":"39.89007","title":"劲松桥下","description":"东西双向"},
   {"pathname":"亮马桥路与麦子店街交汇处西 东向西","pointx":"116.47486","pointy":"39.957038","title":"亮马桥路与麦子店街交汇处西","description":"东向西"},
   {"pathname":"上清桥北天桥 主路双向","pointx":"116.358015","pointy":"40.031728","title":"上清桥北","description":"主路双向"},
-  {"pathname":"远通桥西天桥 由东向西","pointx":"116.544818","pointy":"39.915571","title":"远通桥西天桥","description":"东西双向"}
-
-
+  {"pathname":"远通桥西天桥 由东向西","pointx":"116.544818","pointy":"39.915571","title":"远通桥西天桥","description":"东西双向"},
   
-  
+  {"pathname":"方庄桥东外环 西向东","pointx":"116.45091","pointy":"39.864582","title":"方庄桥东外环 西向东","description":"方庄桥东外环 西向东"},
+  {"pathname":"联想桥南侧皂君庙路","pointx":"116.341057","pointy":"39.970272","title":"联想桥南侧皂君庙路","description":"联想桥南侧皂君庙路"},
+  {"pathname":"顾家庄桥南 南向北 早晚高峰拍，避开中间车道即可","pointx":"116.44653","pointy":"40.022529","title":"顾家庄桥南","description":"早晚高峰拍，走辅路或避开中间车道即可"},
   
   ]
