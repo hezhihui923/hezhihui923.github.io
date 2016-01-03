@@ -158,4 +158,23 @@
   {"pathname":"顾家庄桥南 南向北 早晚高峰拍，避开中间车道即可","pointx":"116.44653","pointy":"40.022529","title":"顾家庄桥南","description":"早晚高峰拍，走辅路或避开中间车道即可"},
   {"pathname":"丰台大桥北内环 南向北（高峰期）","pointx":"116.28995","pointy":"39.855186","title":"丰台大桥北内环","description":"南向北(高峰期)"},
   
+  
+  
+  
+  {"pathname":"光华桥西 东西双向，可走内侧车道","pointx":"116.46804","pointy":"39.919152","title":"光华桥西","description":"东西双向，可走内侧车道"},
+  
+  {"pathname":"昌平区北环路与东环路路口东向西","pointx":"116.246088","pointy":"40.235499","title":"昌平区北环路与东环路路口","description":"由东向西"},
+  
+  {"pathname":"安华桥南 南北双向","pointx":"116.401129","pointy":"39.972455","title":"安华桥南","description":"南北双向"},
+  
+  
+  {"pathname":"怀柔南大街与龙山东路交汇 西向东","pointx":"116.632228","pointy":"40.316419","title":"怀柔南大街与龙山东路交汇","description":"西向东"},
+  {"pathname":"大羊坊路五环内路口 南北双向","pointx":"116.517689","pointy":"39.82938","title":"大羊坊路五环内路口","description":"南北双向"},
+  {"pathname":"鼓楼西大街西口 东西双向 ","pointx":"116.387749","pointy":"39.953947","title":"鼓楼西大街西口","description":"东西双向"},
+  {"pathname":"石榴庄路与宋庄路交叉口 西向东","pointx":"116.434792","pointy":"39.851964","title":"石榴庄路与宋庄路交叉口","description":"西向东"},
+  {"pathname":"丰科路北口 南向北","pointx":"116.303684","pointy":"39.833969","title":"丰科路北口","description":"南向北"},
+  {"pathname":"机场高速三元桥南天桥 进京方向","pointx":"116.456598","pointy":"39.959488","title":"机场高速三元桥南天桥","description":"进京方向"},
+  
+  
+  
   ]
