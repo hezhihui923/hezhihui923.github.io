@@ -70,7 +70,7 @@
   {"pathname":"玉蜓桥南 南向北","pointx":"116.42798","pointy":"39.87595","title":"玉蜓桥南","description":"南向北"},
   {"pathname":"京石大瓦窑桥西 双向","pointx":"116.244456","pointy":"39.859914","title":"大瓦窑桥西","description":"京石高速上双向"},
   {"pathname":"广顺桥南 南北双向（辅路不拍）","pointx":"116.473847","pointy":"40.020036","title":"广顺桥南","description":"南北双向，辅路不拍"},
-  {"pathname":"京承高速鲁疃桥下双向（可走最外侧车道）","pointx":"116.490034","pointy":"40.11129","title":"京承高速鲁疃桥下","description":"双向，最外侧车道不拍"},
+  {"pathname":"京承高速鲁疃桥下双向（可走最外侧车道）","pointx":"116.489846","pointy":"40.11129","title":"京承高速鲁疃桥下","description":"双向，最外侧车道不拍"},
   {"pathname":"北京站东街与大羊毛胡同路口 西向东","pointx":"116.438863","pointy":"39.911014","title":"北京站东街","description":"北京站东街与大羊毛胡同路口，西向东"},
   {"pathname":"南环东路与龙水路十字路口西","pointx":"116.26484","pointy":"40.219466","title":"南环东路与龙水路十字路口西","description":" 西向东"},
   {"pathname":"官园桥东天桥 西向东","pointx":"116.365449","pointy":"39.938195","title":"官园桥东天桥","description":"西向东"},
@@ -140,7 +140,7 @@
   {"pathname":"右安门桥下 南北双向，避免走中间车道","pointx":"116.370811","pointy":"39.875213","title":"右安门桥下","description":"南北双向，一面一个，对准中间车道，可走内侧或外侧车道"},
   {"pathname":"昌平南环东路与燕平路路口北 南向北","pointx":"116.251196","pointy":"40.21908","title":"昌平南环东路与燕平路路口北","description":"南向北"},
   {"pathname":"西坝河南路 东北西南双向 靠近七圣南路交叉口","pointx":"116.443913","pointy":"39.969083","title":"西坝河南路","description":"东北西南双向，靠近七圣南路交叉口"},
-  {"pathname":"兴华桥下，南北双向（有待确认）","pointx":"116.336754","pointy":"39.784891","title":"兴华桥下","description":"南北双向有等确认"},
+  {"pathname":"兴华桥下，南北双向（进京内侧车道不拍，出京方向辅路不拍）","pointx":"116.336723","pointy":"39.785112","title":"兴华桥下","description":"南北双向有等确认"},
   {"pathname":"桦皮厂胡同北口 南北双向","pointx":"116.365565","pointy":"39.949926","title":"桦皮厂胡同北口","description":"南北双向"},
   {"pathname":"东铁营桥北 南北双向","pointx":"116.438562","pointy":"39.865675","title":"东铁营桥北","description":"南北双向"},
   
@@ -180,5 +180,8 @@
   {"pathname":"（只高峰期）奥林东路南天桥 南北双向","pointx":"116.406959","pointy":"40.017712","title":"奥林东路南天桥","description":"南北双向"},
   {"pathname":"西三环新兴桥南内环 南向北","pointx":"116.316833","pointy":"39.908444","title":"西三环新兴桥南内环","description":"由南向北"},
   {"pathname":"静安东街北口南 北向南","pointx":"116.456016","pointy":"39.965568","title":"静安东街北口南","description":"由北向南"},
+  {"pathname":"万泉河快速路肖家河桥南主路南向北","pointx":"116.293958","pointy":"40.018871","title":"万泉河快速路肖家河桥南主路","description":"由南向北"}
+  
+
   
   ]
