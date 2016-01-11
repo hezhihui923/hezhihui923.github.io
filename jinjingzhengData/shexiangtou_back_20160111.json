@@ -65,7 +65,7 @@
   {"pathname":" 衙门口桥东天桥 东西双向","pointx":"116.229432","pointy":"39.902597","title":"衙门口桥东天桥","description":"东西双向"},
   {"pathname":"鲁谷南路新华社门口 东西双向","pointx":"116.219415","pointy":"39.906202","title":"鲁谷南路新华社门口","description":"东西双向"},
   {"pathname":"老山南路西 东西双向","pointx":"116.218718","pointy":"39.916309","title":"老山南路西","description":"东西双向"},
-  {"pathname":"学院路六道口南北双向（存争议，80%可能不拍）","pointx":"116.359304","pointy":"40.006835","title":"学院路六道口","description":"南北双向，有争议，有待确认"},
+  {"pathname":"学院路六道口南北双向（存争议）","pointx":"116.359304","pointy":"40.006835","title":"学院路六道口","description":"南北双向，有争议，有待确认"},
   {"pathname":"观音堂桥西 东西双向","pointx":"116.552413","pointy":"39.888897","title":"观音堂桥西","description":"东西双向"},
   {"pathname":"玉蜓桥南 南向北","pointx":"116.42798","pointy":"39.87595","title":"玉蜓桥南","description":"南向北"},
   {"pathname":"京石大瓦窑桥西 双向","pointx":"116.244456","pointy":"39.859914","title":"大瓦窑桥西","description":"京石高速上双向"},
@@ -83,7 +83,7 @@
   {"pathname":"京开金星桥南天桥双向","pointx":"116.350029","pointy":"39.765032","title":"京开金星桥南天桥","description":"双向，内侧车道和辅路不拍"},
   {"pathname":"京石高速 南北向主辅路","pointx":"116.245143","pointy":"39.86106","title":"京石高速","description":"南北向主辅路"},
   {"pathname":"潘家园桥西 东西双向","pointx":"116.466229","pointy":"39.88192","title":"潘家园桥西","description":"东西双向"},
-  {"pathname":"酒仙桥北路（争议）","pointx":"116.510498","pointy":"39.994194","title":"酒仙桥北路","description":"双向"},
+  {"pathname":"酒仙桥北路","pointx":"116.510498","pointy":"39.994194","title":"酒仙桥北路","description":"双向"},
   {"pathname":"和平西桥北 南向北","pointx":"116.424332","pointy":"39.9775","title":"和平西桥北","description":"南向北"},
   {"pathname":"奥林西桥南 南北双向","pointx":"116.390435","pointy":"40.02688","title":"奥林西桥南","description":"南北双向"},
   {"pathname":"安贞桥南天桥 南北双向","pointx":"116.414146","pointy":"39.971829","title":"安贞桥南天桥","description":"南北双向"},
@@ -176,9 +176,5 @@
   {"pathname":"机场高速三元桥南天桥 进京方向","pointx":"116.456598","pointy":"39.959488","title":"机场高速三元桥南天桥","description":"进京方向"},
   
   
-  {"pathname":"西三环丰益桥北内环 南向北","pointx":"116.320942","pointy":"39.866848","title":"西三环丰益桥北内环","description":"由南向北"},
-  {"pathname":"（只高峰期）奥林东路南天桥 南北双向","pointx":"116.406959","pointy":"40.017712","title":"奥林东路南天桥","description":"南北双向"},
-  {"pathname":"西三环新兴桥南内环 南向北","pointx":"116.316833","pointy":"39.908444","title":"西三环新兴桥南内环","description":"由南向北"},
-  {"pathname":"静安东街北口南 北向南","pointx":"116.456016","pointy":"39.965568","title":"静安东街北口南","description":"由北向南"},
   
   ]
