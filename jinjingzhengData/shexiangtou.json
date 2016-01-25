@@ -187,7 +187,10 @@
   {"pathname":"亦庄桥北三台山路口 南北双向","pointx":"116.479017","pointy":"39.814507","title":"亦庄桥北三台山路口","description":"南北双向"},
   {"pathname":"西三环丽泽桥北 内环南向北","pointx":"116.318274","pointy":"39.880068","title":"西三环丽泽桥北","description":"内环南向北"},
   {"pathname":"东铁营桥北 南北双向","pointx":"116.438563","pointy":"39.865629","title":"东铁营桥北","description":"南北双向"},
-  {"pathname":"金宝街西口 东向西","pointx":"116.424253","pointy":"39.92179","title":"金宝街西口","description":"东向西"}
+  {"pathname":"金宝街西口 东向西","pointx":"116.424253","pointy":"39.92179","title":"金宝街西口","description":"东向西"},
+
+  {"pathname":"东四西大街西口，西向东","pointx":"116.417861","pointy":"39.930525","title":"东四西大街西口","description":"西向东"},
+  {"pathname":"方庄桥北，南向北","pointx":"116.445101","pointy":"39.868007","title":"方庄桥北","description":"南向北"}
 
   
   ]
