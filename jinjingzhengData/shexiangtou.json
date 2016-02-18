@@ -1,7 +1,7 @@
  [
   {"pathname":"上清桥南天桥南北主路 双向（包括辅路）","pointx":"116.364376","pointy":"40.023619","title":"上清桥南天桥","description":"南北双向,位于京藏高速上，包括辅路"},
   {"pathname":"肖家河桥南 圆明园西路双向","pointx":"116.293633","pointy":"40.018417","title":"肖家河桥南","description":"南北双向，位于在圆明园西路上"},
-  {"pathname":"五方桥西 西向东（可走最内侧车道）","pointx":"116.549863","pointy":"39.875349","title":"五方桥西","description":"西向东，位于京哈高速五方桥西天桥上，可走最内侧车道避开"},
+  {"pathname":"五方桥西 西向东（京哈高速五方桥西天桥上）","pointx":"116.549863","pointy":"39.875349","title":"五方桥西","description":"西向东"},
   {"pathname":"厢白旗桥南 南北双向(通往体大的小路上)","pointx":"116.324149","pointy":"40.022163","title":"厢白旗桥南","description":"南北双向"},
   {"pathname":"京港澳高速京良桥下 南向北","pointx":"116.171167","pointy":"39.782279","title":"京港澳高速京良桥下","description":" 南向北"},
   {"pathname":"西沙桥 南北双向","pointx":"116.251961","pointy":"40.170414","title":"西沙桥","description":"南北双向"},
@@ -97,7 +97,6 @@
   {"pathname":"陶然桥北 南北双向","pointx":"116.394244","pointy":"39.879438","title":"陶然桥北","description":"南北双向"},
   {"pathname":"菜市口大街健宫医院附近","pointx":"116.38085","pointy":"39.887037","title":"菜市口大街","description":"健宫医院附件 南向北"},
   {"pathname":"岳各庄桥双向","pointx":"116.284543","pointy":"39.881501","title":"标题","description":"说明"},
-  {"pathname":"丰北桥内环南向北(据说走最内侧车道不被拍)","pointx":"116.288055","pointy":"39.875569","title":"标题","description":"说明"},
   {"pathname":"林萃桥南 双向（北向南过地铁站进辅路不拍）","pointx":"116.380845","pointy":"40.027626","title":"林萃桥南","description":"南北双向，北向南过地铁站小区门口进辅路不拍，"},
   {"pathname":"机场高速焦庄桥进京方向（内侧车道不拍待确认）","pointx":"116.591512","pointy":"39.956663","title":"机场第二高速进京方向焦庄桥","description":"走最内侧车道不拍，待确认"},
   {"pathname":"马驹桥北 北向南","pointx":"116.573056","pointy":"39.760816","title":"马驹桥北","description":"北向南"},
@@ -190,7 +189,9 @@
   {"pathname":"金宝街西口 东向西","pointx":"116.424253","pointy":"39.92179","title":"金宝街西口","description":"东向西"},
 
   {"pathname":"东四西大街西口，西向东","pointx":"116.417861","pointy":"39.930525","title":"东四西大街西口","description":"西向东"},
-  {"pathname":"方庄桥北，南向北","pointx":"116.445101","pointy":"39.868007","title":"方庄桥北","description":"南向北"}
+  {"pathname":"方庄桥北，南向北","pointx":"116.445101","pointy":"39.868007","title":"方庄桥北","description":"南向北"},
+  {"pathname":"丰北桥北外环 由北向南","pointx":"116.288586","pointy":"39.874479","title":"丰北桥北外环","description":"北向南"},
+  {"pathname":"大红门桥内环 东向西（走内侧车道没事）","pointx":"116.407441","pointy":"39.838589","title":"大红门桥内环","description":"东向西"}
 
   
   ]
