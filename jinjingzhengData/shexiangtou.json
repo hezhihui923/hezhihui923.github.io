@@ -23,7 +23,7 @@
   {"pathname":"七颗树桥西 东西双向","pointx":"116.534653","pointy":"39.964893","title":"七颗树桥西","description":"东西双向"},
 
   {"pathname":"长安街府右街南口 西向东","pointx":"116.389184","pointy":"39.913369","title":"长安街府右街南口","description":"西向东"},
-  {"pathname":"西单路口 东向西","pointx":"116.380353","pointy":"39.913327","title":"长安街西单路口","description":"西向东"},
+  {"pathname":"西单路口 东西双向 并且南向北","pointx":"116.380353","pointy":"39.913327","title":"西单路口 东西双向 并且南向北","description":"西单路口 东西双向 并且南向北"},
   {"pathname":"长安街闹市口 西向东","pointx":"116.369896","pointy":"39.91303","title":"长安街闹市口","description":"西向东"},
   {"pathname":"长安街北京站北口 东向西","pointx":"116.433383","pointy":"39.914539","title":"长安街北京站北口","description":"东向西"},
   {"pathname":"民安街东直门中学门口 东西双向","pointx":"116.438747","pointy":"39.95057","title":"民安街东直门中学门口","description":" 东西双向"},
@@ -190,7 +190,14 @@
   {"pathname":"东四西大街西口，西向东","pointx":"116.417861","pointy":"39.930525","title":"东四西大街西口","description":"西向东"},
   {"pathname":"方庄桥北，南向北","pointx":"116.445101","pointy":"39.868007","title":"方庄桥北","description":"南向北"},
   {"pathname":"丰北桥北外环 由北向南","pointx":"116.288586","pointy":"39.874479","title":"丰北桥北外环","description":"北向南"},
-  {"pathname":"大红门桥内环 东向西（走内侧车道没事）","pointx":"116.407441","pointy":"39.838589","title":"大红门桥内环","description":"东向西"}
+  {"pathname":"大红门桥内环 东向西（走内侧车道没事）","pointx":"116.407441","pointy":"39.838589","title":"大红门桥内环","description":"东向西"},
 
   
+  {"pathname":"师大北路与杏坛路路口，南向北","pointx":"116.367623","pointy":"39.97103","title":"师大北路与杏坛路路口","description":"南向北"},
+  {"pathname":"燕莎桥西 东西双向","pointx":"116.466315","pointy":"39.954626","title":"燕莎桥西 ","description":"东西双向"},
+  {"pathname":"延庆川北小区南门 东西双向（有人被拍）","pointx":"115.990007","pointy":"40.46762","title":"延庆川北小区附近","description":"方向不明"},
+  {"pathname":"蓟门桥东外环 由东向西","pointx":"116.366172","pointy":"39.97358","title":"蓟门桥东外环","description":"由东向西"},
+  {"pathname":"顺于路南法信地铁站附近 东西双向","pointx":"116.616692","pointy":"40.134148","title":"顺于路南法信地铁站附近","description":"东西双向","biaozhu":"1"}
+
+
   ]
