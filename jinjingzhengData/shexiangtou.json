@@ -197,7 +197,9 @@
   {"pathname":"燕莎桥西 东西双向","pointx":"116.466315","pointy":"39.954626","title":"燕莎桥西 ","description":"东西双向"},
   {"pathname":"延庆川北小区南门 东西双向（有人被拍）","pointx":"115.990007","pointy":"40.46762","title":"延庆川北小区附近","description":"方向不明"},
   {"pathname":"蓟门桥东外环 由东向西","pointx":"116.366172","pointy":"39.97358","title":"蓟门桥东外环","description":"由东向西"},
-  {"pathname":"顺于路南法信地铁站附近 东西双向","pointx":"116.616692","pointy":"40.134148","title":"顺于路南法信地铁站附近","description":"东西双向","biaozhu":"1"}
+  {"pathname":"顺于路南法信地铁站附近 东西双向","pointx":"116.616692","pointy":"40.134148","title":"顺于路南法信地铁站附近","description":"东西双向"},
+  {"pathname":"延庆康安小区东南门南北双向","pointx":"115.9765","pointy":"40.460761","title":"康安小区东南门南北双向","description":"康安小区东南门南北双向"}
+
 
 
   ]
