@@ -198,8 +198,15 @@
   {"pathname":"延庆川北小区南门 东西双向（有人被拍）","pointx":"115.990007","pointy":"40.46762","title":"延庆川北小区附近","description":"方向不明"},
   {"pathname":"蓟门桥东外环 由东向西","pointx":"116.366172","pointy":"39.97358","title":"蓟门桥东外环","description":"由东向西"},
   {"pathname":"顺于路南法信地铁站附近 东西双向","pointx":"116.616692","pointy":"40.134148","title":"顺于路南法信地铁站附近","description":"东西双向"},
-  {"pathname":"延庆康安小区东南门南北双向","pointx":"115.9765","pointy":"40.460761","title":"康安小区东南门南北双向","description":"康安小区东南门南北双向"}
+  {"pathname":"延庆康安小区东南门南北双向","pointx":"115.9765","pointy":"40.460761","title":"康安小区东南门南北双向","description":"康安小区东南门南北双向"},
 
-
+  {"pathname":"西直门内大街 西向东方向","pointx":"116.373116","pointy":"39.946478","title":"西直门内大街","description":"西向东方向"},
+  {"pathname":"北京南站南口北 由北向南","pointx":"116.382863","pointy":"39.867197","title":"北京南站南口北","description":"由北向南"},
+  {"pathname":"右安南桥桥下 南北双向","pointx":"116.371513","pointy":"39.860866","title":"右安南桥桥下","description":"南北双向"},
+  {"pathname":"三元东桥南 北向南","pointx":"116.465291","pointy":"39.959304","title":"三元东桥南","description":"北向南"},
+  {"pathname":"肖家河桥北 南北双向","pointx":"116.29027","pointy":"40.025692","title":"肖家河桥北","description":"南北双向"},
+  {"pathname":"四环主路窑洼湖桥北 外环南向北（这个不一定）","pointx":"116.496291","pointy":"39.893151","title":"四环主路窑洼湖桥北","description":"外环南向北"},
+  {"pathname":"三环主路赵公口桥东天桥 由西向东","pointx":"116.4237","pointy":"39.863261","title":"三环主路赵公口桥东天桥","description":"由西向东"},
+  {"pathname":"东苇路 由南向北辅路不拍","pointx":"116.569625","pointy":"40.01884","title":"东苇路","description":"由南向北辅路不拍"}
 
   ]
