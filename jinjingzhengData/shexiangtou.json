@@ -213,6 +213,8 @@
   {"pathname":"安定门桥南 北向南","pointx":"116.414596","pointy":"39.954333","title":"安定门桥南","description":"北向南"},
   {"pathname":"怀柔区怀柔招商局路口东向西","pointx":"116.643978","pointy":"40.329444","title":"怀柔区怀柔招商局路口","description":"东向西"},
   {"pathname":"小街桥南 南向北","pointx":"116.431955","pointy":"39.953911","title":"小街桥南","description":"南向北"},
-  {"pathname":"公益西桥南第一红绿灯 南向北","pointx":"116.373125","pointy":"39.828596","title":"公益西桥南第一红绿灯","description":"南向北"}
+  {"pathname":"公益西桥南第一红绿灯 南向北","pointx":"116.373125","pointy":"39.828596","title":"公益西桥南第一红绿灯","description":"南向北"},
+  
+  {"pathname":"永定门桥北 北向南","pointx":"116.40421","pointy":"39.883044","title":"永定门桥北","description":"北向南"}
 
   ]
