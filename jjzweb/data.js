@@ -1,292 +1,213 @@
 var data = [
-    {
-        "pathname": "上清桥南北主路 双向",
-        "pointx": "116.360395",
-        "pointy": "40.028704"
-    },
-    {
-        "pathname": "肖家河桥南 双向",
-        "pointx": "116.293669",
-        "pointy": "40.019725"
-    },
-    {
-        "pathname": "五方桥西 西向东",
-        "pointx": "116.553675",
-        "pointy": "39.875023"
-    },
-    {
-        "pathname": "厢白旗桥南 南向北",
-        "pointx": "116.322936",
-        "pointy": "40.02369"
-    },
-    {
-        "pathname": "京港澳高速京良桥下",
-        "pointx": "116.171167",
-        "pointy": "39.782279"
-    },
-    {
-        "pathname": "西沙桥 南向北",
-        "pointx": "116.251341",
-        "pointy": "40.171445"
-    },
-    {
-        "pathname": "海运仓胡同东口 西向东",
-        "pointx": "116.440225",
-        "pointy": "39.942583"
-    },
-    {
-        "pathname": "白家楼桥西人行过街灯 双向",
-        "pointx": "116.54826",
-        "pointy": "39.929658"
-    },
-    {
-        "pathname": "四通桥南天桥 南向北",
-        "pointx": "116.32934",
-        "pointy": "39.966681"
-    },
-    {
-        "pathname": "紫竹桥东天桥 双向",
-        "pointx": "116.321309",
-        "pointy": "39.946371"
-    },
-    {
-        "pathname": "二拨子 双向",
-        "pointx": "116.309405",
-        "pointy": "40.094897"
-    },
-    {
-        "pathname": "学清路北口 北向南",
-        "pointx": "116.358271",
-        "pointy": "40.027741"
-    },
-    {
-        "pathname": "双清路北口 进京",
-        "pointx": "116.357676",
-        "pointy": "40.02828"
-    },
-    {
-        "pathname": "黑庄户桥",
-        "pointx": "116.595675",
-        "pointy": "39.874525"
-    },
-    {
-        "pathname": "晋元桥 东向西",
-        "pointx": "116.218792",
-        "pointy": "39.93035"
-    },
-    {
-        "pathname": "大红门桥",
-        "pointx": "116.40777",
-        "pointy": "39.838663"
-    },
-    {
-        "pathname": "小红门桥",
-        "pointx": "116.466308",
-        "pointy": "39.839325"
-    },
-    {
-        "pathname": "玉蜓桥南 南向北",
-        "pointx": "116.42798",
-        "pointy": "39.87595"
-    },
-    {
-        "pathname": "大瓦窑桥西 东向西",
-        "pointx": "116.246113",
-        "pointy": "39.863951"
-    },
-    {
-        "pathname": "广顺北大街",
-        "pointx": "116.474001",
-        "pointy": "40.019978"
-    },
-    {
-        "pathname": "鲁疃桥 南向北",
-        "pointx": "116.4897",
-        "pointy": "40.110853"
-    },
-    {
-        "pathname": "东便门桥东向西",
-        "pointx": "116.44303",
-        "pointy": "39.906946"
-    },
-    {
-        "pathname": "林翠桥 南向北",
-        "pointx": "116.380888",
-        "pointy": "40.028655"
-    },
-    {
-        "pathname": "虎坊桥路口 南向北",
-        "pointx": "116.391241",
-        "pointy": "39.895492"
-    },
-    {
-        "pathname": "双桥东天桥 由东向西",
-        "pointx": "116.595424",
-        "pointy": "39.915326"
-    },
-    {
-        "pathname": "四惠东双方向",
-        "pointx": "116.522117",
-        "pointy": "39.914122"
-    },
-    {
-        "pathname": "京通快速四惠东双方向",
-        "pointx": "116.521785",
-        "pointy": "39.914271"
-    },
-    {
-        "pathname": "北苑路康斯丹郡",
-        "pointx": "116.423421",
-        "pointy": "40.021714"
-    },
-    {
-        "pathname": "化工桥",
-        "pointx": "116.551988",
-        "pointy": "39.850123"
-    },
-    {
-        "pathname": "化工桥",
-        "pointx": "116.551988",
-        "pointy": "39.850123"
-    },
-    {
-        "pathname": "潘家园桥西东向西",
-        "pointx": "116.466229",
-        "pointy": "39.88192"
-    },
-    {
-        "pathname": "酒仙桥北路",
-        "pointx": "116.512878",
-        "pointy": "39.994261"
-    },
-    {
-        "pathname": "潘家园桥西由东向西",
-        "pointx": "116.465776",
-        "pointy": "39.881944"
-    },
-    {
-        "pathname": "奥林西路双向",
-        "pointx": "116.390435",
-        "pointy": "40.02688"
-    },
-    {
-        "pathname": "安贞桥东",
-        "pointx": "116.408574",
-        "pointy": "39.975028"
-    },
-    {
-        "pathname": "鲁谷桥",
-        "pointx": "116.217619",
-        "pointy": "39.909553"
-    },
-    {
-        "pathname": "广渠门桥西西向东",
-        "pointx": "116.450576",
-        "pointy": "39.899334"
-    },
-    {
-        "pathname": "广渠门桥西东向西",
-        "pointx": "116.449741",
-        "pointy": "39.899659"
-    },
-    {
-        "pathname": "顾家庄桥南路口南 南向北",
-        "pointx": "116.448026",
-        "pointy": "40.026777"
-    },
-    {
-        "pathname": "祁年大街路口 东向西",
-        "pointx": "116.418711",
-        "pointy": "39.899304"
-    },
-    {
-        "pathname": "陶然桥 南北双向",
-        "pointx": "116.394244",
-        "pointy": "39.879438"
-    },
-    {
-        "pathname": "菜市口大街道南向北",
-        "pointx": "116.380913",
-        "pointy": "39.88283"
-    },
-    {
-        "pathname": "岳各庄桥双向",
-        "pointx": "116.284543",
-        "pointy": "39.881501"
-    },
-    {
-        "pathname": "丰北桥内环南向北",
-        "pointx": "116.288055",
-        "pointy": "39.875569"
-    },
-    {
-        "pathname": "林萃桥南 北向南",
-        "pointx": "116.380693",
-        "pointy": "40.028748"
-    },
-    {
-        "pathname": "机场第二高速进京方向焦庄桥位置",
-        "pointx": "116.590492",
-        "pointy": "39.962836"
-    },
-    {
-        "pathname": "马驹桥 北向南",
-        "pointx": "116.576215",
-        "pointy": "39.757899"
-    },
-    {
-        "pathname": "西四路口 西向东",
-        "pointx": "116.379925",
-        "pointy": "39.930062"
-    },
-    {
-        "pathname": "西沙桥 北向南",
-        "pointx": "116.252347",
-        "pointy": "40.170404"
-    },
-    {
-        "pathname": "德茂桥由北向南",
-        "pointx": "116.433859",
-        "pointy": "39.788793"
-    },
-    {
-        "pathname": "立水桥 龙德广场",
-        "pointx": "116.420117",
-        "pointy": "40.066579"
-    },
-    {
-        "pathname": "北苑路康斯丹郡门口 由北向南",
-        "pointx": "116.427266",
-        "pointy": "40.021629"
-    },
-    {
-        "pathname": "大羊坊桥下",
-        "pointx": "116.511339",
-        "pointy": "39.825948"
-    },
-    {
-        "pathname": "功德寺桥南",
-        "pointx": "116.26363",
-        "pointy": "40.007485"
-    },
-    {
-        "pathname": "平房桥西 由东向西",
-        "pointx": "116.553603",
-        "pointy": "39.947717"
-    },
-    {
-        "pathname": "机场辅路",
-        "pointx": "116.503469",
-        "pointy": "40.001326"
-    },
-            {"pathname":"西四路口 西向东","pointx":"116.379925","pointy":"39.930062"},
-            {"pathname":"政府街与西环路路口西向东","pointx":"116.233628","pointy":"40.225932"},
-            {"pathname":"永安公园路与西环路路口北侧南向北","pointx":"116.233585","pointy":"40.220398"},
-            {"pathname":"南环路与鼓楼南街路口南向北","pointx":"116.240312","pointy":"40.218533"},
-            {"pathname":"南环路与东环路路口南向北","pointx":"116.247055","pointy":"40.218777"},
-            {"pathname":"南环路与亢山路路口南向北","pointx":"116.257008","pointy":"40.219318"},
-            {"pathname":"府学路与水库路路口东向西","pointx":"116.268444","pointy":"40.228087"},
-            {"pathname":"北环路与西环路交叉口（北向南）","pointx":"116.233192","pointy":"40.235014"},
+  {"pathname":"上清桥南天桥南北主路 双向（包括辅路）","pointx":"116.364376","pointy":"40.023619","title":"上清桥南天桥","description":"南北双向,位于京藏高速上，包括辅路"},
+  {"pathname":"肖家河桥南 圆明园西路双向","pointx":"116.293633","pointy":"40.018417","title":"肖家河桥南","description":"南北双向，位于在圆明园西路上"},
+  {"pathname":"五方桥西 西向东（京哈高速五方桥西天桥上）","pointx":"116.549863","pointy":"39.875349","title":"五方桥西","description":"西向东"},
+  {"pathname":"厢白旗桥南 南北双向(通往体大的小路上)","pointx":"116.324149","pointy":"40.022163","title":"厢白旗桥南","description":"南北双向"},
+  {"pathname":"京港澳高速京良桥下 南向北","pointx":"116.171167","pointy":"39.782279","title":"京港澳高速京良桥下","description":" 南向北"},
+  {"pathname":"西沙桥 南北双向","pointx":"116.251961","pointy":"40.170414","title":"西沙桥","description":"南北双向"},
+  {"pathname":"海运仓胡同东口 西东双向","pointx":"116.439874","pointy":"39.942597","title":"海运仓胡同东口","description":"西东双向"},
+  {"pathname":"仰山桥南（双向）","pointx":"116.414864","pointy":"40.027547","title":"仰山桥南","description":"北向南,"},
+  {"pathname":"白家楼桥西人行过街灯双向（非机动车道不拍）","pointx":"116.541584","pointy":"39.929862","title":"白家楼桥西","description":"人行过街灯附近双向，非机动车道不拍"},
+  {"pathname":"四通桥南天桥 南向北","pointx":"116.32934","pointy":"39.966681","title":"四通桥南天桥","description":"南向北"},
+  {"pathname":"紫竹桥东天桥 双向","pointx":"116.321309","pointy":"39.946371","title":"紫竹桥东天桥","description":" 双向"},
+  {"pathname":"二拨子桥下 南北双向","pointx":"116.309405","pointy":"40.094897","title":"二拨子桥下","description":"南北双向"},
+  {"pathname":"白纸坊桥 东西双向","pointx":"116.357007","pointy":"39.883332","title":"白纸坊桥","description":"东西双向"},
+  {"pathname":"大观园西门附近 南向北","pointx":"116.360627","pointy":"39.877768","title":"大观园西门附近","description":"南向北"},
+  {"pathname":"学清路北口 南北双向","pointx":"116.358371","pointy":"40.027645","title":"学清路北口","description":"南北双向"},
+  {"pathname":"北清路永旺商场 东西双向（个别有说拍的，多数说不拍）","pointx":"116.294988","pointy":"40.098844","title":"标题","description":"说明"},
+  {"pathname":"双清路北口 进京","pointx":"116.357676","pointy":"40.02828","title":"双清路北口","description":"进京"},
+  {"pathname":"黑庄户桥 出京方向 确定最内侧车道不拍","pointx":"116.595954","pointy":"39.873019","title":"京哈高速黑庄户桥","description":"出京方向 确定最内侧车道不拍"},
+  {"pathname":"雍和宫桥南 南北双向","pointx":"116.422999","pointy":"39.953902","title":"雍和宫桥南","description":"南北双向"},
+  {"pathname":"玉蜓桥北 南北双向","pointx":"116.42769","pointy":"39.881586","title":"玉蜓桥北","description":"南北双向"},
+  {"pathname":"开阳桥北天桥 北向南","pointx":"116.380874","pointy":"39.879784","title":"开阳桥北天桥","description":"北向南"},
+  {"pathname":"七颗树桥西 东西双向","pointx":"116.534653","pointy":"39.964893","title":"七颗树桥西","description":"东西双向"},
+
+  {"pathname":"长安街府右街南口 西向东","pointx":"116.389184","pointy":"39.913369","title":"长安街府右街南口","description":"西向东"},
+  {"pathname":"西单路口 东西双向 并且南向北","pointx":"116.380353","pointy":"39.913327","title":"西单路口 东西双向 并且南向北","description":"西单路口 东西双向 并且南向北"},
+  {"pathname":"长安街闹市口 西向东","pointx":"116.369896","pointy":"39.91303","title":"长安街闹市口","description":"西向东"},
+  {"pathname":"长安街北京站北口 东向西","pointx":"116.433383","pointy":"39.914539","title":"长安街北京站北口","description":"东向西"},
+  {"pathname":"民安街东直门中学门口 东西双向","pointx":"116.438747","pointy":"39.95057","title":"民安街东直门中学门口","description":" 东西双向"},
+  {"pathname":"通燕高速三惠桥下 东向西","pointx":"116.714454","pointy":"39.929229","title":"通燕高速三惠桥下","description":"东向西，有待确认"},
+  {"pathname":"宣武门西大街与长椿街路口 西向东","pointx":"116.369909","pointy":"39.90525","title":"宣武门西大街与长椿街路口","description":" 西向东"},
+  {"pathname":"东便门桥西天桥 东西双向","pointx":"116.437181","pointy":"39.90669","title":"东便门桥西天桥","description":"东西双向"},
+  {"pathname":"八角桥东天桥 东西双向","pointx":"116.220754","pointy":"39.913107","title":"八角桥东天桥","description":"东西双向"},
+  {"pathname":"花园桥东天桥 东向西","pointx":"116.321857","pointy":"39.938279","title":"花园桥东天桥","description":"东向西"},
+  {"pathname":"前门西大街 西向东","pointx":"116.396692","pointy":"39.906606","title":"前门西大街","description":" 西向东"},
+  {"pathname":"京平高速温榆大桥西 东向西","pointx":"116.566646","pointy":"40.044889","title":"京平高速温榆大桥西","description":" 东向西"},
+  {"pathname":"新兴桥东天桥 东西双向","pointx":"116.320994","pointy":"39.913439","title":"新兴桥东天桥","description":"东西双向"},
+  {"pathname":"积水桥南 北向南","pointx":"116.378699","pointy":"39.953877","title":"积水桥南","description":"北向南"},
+  {"pathname":"南新仓天桥 东西双向","pointx":"116.437423","pointy":"39.939676","title":"南新仓天桥","description":"东西双向"},
+  {"pathname":"三元桥南天桥 南北双向","pointx":"116.456802","pointy":"39.961378","title":"标题","description":"说明"},
+  {"pathname":"三元西桥南老国展门前 双向","pointx":"116.451035","pointy":"39.966393","title":"三元西桥南老国展门前","description":" 双向"},
+  {"pathname":"回龙观西大街 东西双向","pointx":"116.330274","pointy":"40.082105","title":"标题","description":"说明"},
+  {"pathname":"为公桥东公交站 由东向西","pointx":"116.316935","pointy":"39.962908","title":"为公桥东公交站","description":"由东向西"},
+  {"pathname":"育知东路 南北双向(争议，很多人说不拍)","pointx":"116.340196","pointy":"40.084869","title":"标题","description":"说明"},
+  {"pathname":"北太平桥南天桥 南北双向","pointx":"116.376838","pointy":"39.971886","title":"北太平桥南天桥","description":" 南北双向"},
+  {"pathname":"北环东路与松园路路口 北向南","pointx":"116.256946","pointy":"40.234218","title":"北环东路与松园路路口","description":" 北向南"},
+  {"pathname":"鼓楼西街与西环路路口 西向东","pointx":"116.233504","pointy":"40.229825","title":"鼓楼西街与西环路路口","description":" 西向东"},
+  {"pathname":"怀柔劳动大厦路口 北向南","pointx":"116.650854","pointy":"40.347732","title":"怀柔劳动大厦路口","description":" 北向南"},
+  {"pathname":"朝阳门桥西 东西双向","pointx":"116.436922","pointy":"39.930443","title":"朝阳门桥西","description":"东西双向"},
+  {"pathname":"金盏桥北 由南向北","pointx":"116.603432","pointy":"40.013962","title":"金盏桥北","description":"由南向北"},
+  {"pathname":"晋元桥东天桥 东西双向","pointx":"116.225911","pointy":"39.930374","title":"晋元桥东天桥","description":"东西双向"},
+  {"pathname":"京承高速吉祥寺桥北 双向（可走内侧或外侧车道）","pointx":"116.487057","pointy":"40.047638","title":"京承高速吉祥寺桥北","description":"南北双向，摄像头对中间车道，可走内侧或外侧车道"},
+  {"pathname":"七颗树路五环路西 由东向西","pointx":"116.532919","pointy":"39.970441","title":"七颗树路五环路西","description":"由东向西"},
+  {"pathname":"五景桥东 东西双向","pointx":"116.218585","pointy":"39.922475","title":"五景桥东","description":"东西双向"},
+  {"pathname":"西黄村桥东 东西双向","pointx":"116.221601","pointy":"39.939105","title":"西黄村桥东","description":"东西双向"},
+  {"pathname":"杏石口桥东 东西双向","pointx":"116.228194","pointy":"39.960667","title":"杏石口桥东","description":"东西双向"},
+  {"pathname":"闵西桥东 东西双向","pointx":"116.234993","pointy":"39.978778","title":"闵西桥东","description":"东西双向"},
+  {"pathname":"旱河路香泉环岛南 双向（争议、很多人说不拍）","pointx":"116.230125","pointy":"39.996007","title":"标题","description":"说明"},
+  {"pathname":"玉泉山路香泉环岛东 东西双向","pointx":"116.231126","pointy":"39.998284","title":"玉泉山路香泉环岛东","description":" 东西双向"},
+  {"pathname":"红山桥下 香山路东西双向(争议)","pointx":"116.276101","pointy":"40.011807","title":"红山桥下","description":"香山路东西双向"},
+
+  {"pathname":"颐和园北宫门 南北双向（暂存争议）","pointx":"116.281175","pointy":"40.00941","title":"颐和园路颐和园北宫门","description":" 南北双向,存争议，有待确认"},
+  {"pathname":"双清路北培黎职业学院 南北双向","pointx":"116.35444","pointy":"40.026988","title":"双清路北培黎职业学院","description":"南北双向"},
+  {"pathname":" 衙门口桥东天桥 东西双向","pointx":"116.229432","pointy":"39.902597","title":"衙门口桥东天桥","description":"东西双向"},
+  {"pathname":"鲁谷南路新华社门口 东西双向","pointx":"116.219415","pointy":"39.906202","title":"鲁谷南路新华社门口","description":"东西双向"},
+  {"pathname":"老山南路西 东西双向","pointx":"116.218718","pointy":"39.916309","title":"老山南路西","description":"东西双向"},
+  {"pathname":"学院路六道口南北双向（存争议，80%可能不拍）","pointx":"116.359304","pointy":"40.006835","title":"学院路六道口","description":"南北双向，有争议，有待确认"},
+  {"pathname":"观音堂桥西 东西双向","pointx":"116.552413","pointy":"39.888897","title":"观音堂桥西","description":"东西双向"},
+  {"pathname":"玉蜓桥南 南向北","pointx":"116.42798","pointy":"39.87595","title":"玉蜓桥南","description":"南向北"},
+  {"pathname":"京石大瓦窑桥西 双向","pointx":"116.244456","pointy":"39.859914","title":"大瓦窑桥西","description":"京石高速上双向"},
+  {"pathname":"广顺桥南 南北双向（辅路不拍）","pointx":"116.473847","pointy":"40.020036","title":"广顺桥南","description":"南北双向，辅路不拍"},
+  {"pathname":"京承高速鲁疃桥下双向（可走最外侧车道）","pointx":"116.489846","pointy":"40.11129","title":"京承高速鲁疃桥下","description":"双向，最外侧车道不拍"},
+  {"pathname":"北京站东街与大羊毛胡同路口 西向东","pointx":"116.438863","pointy":"39.911014","title":"北京站东街","description":"北京站东街与大羊毛胡同路口，西向东"},
+  {"pathname":"南环东路与龙水路十字路口西","pointx":"116.26484","pointy":"40.219466","title":"南环东路与龙水路十字路口西","description":" 西向东"},
+  {"pathname":"官园桥东天桥 西向东","pointx":"116.365449","pointy":"39.938195","title":"官园桥东天桥","description":"西向东"},
+  {"pathname":"虎坊桥路口 南向北","pointx":"116.391241","pointy":"39.895492","title":"虎坊桥路口","description":"南向北"},
+  {"pathname":"京通主路双桥东天桥 东西双向（争议，说啥的都有，有待确认）","pointx":"116.594871","pointy":"39.915098","title":"标题","description":"说明"},
+  {"pathname":"京开双源桥北天桥（可以走辅路）","pointx":"116.339178","pointy":"39.710885","title":"京开双源桥北天桥","description":"双向，辅路不拍"},
+  {"pathname":"京通快速四惠东双方向","pointx":"116.521875","pointy":"39.914184","title":"京通快速四惠东","description":"双方向"},
+  {"pathname":"北苑路康斯丹郡门口 南北双向","pointx":"116.423254","pointy":"40.021538","title":"北苑路康斯丹郡门口","description":"南北双向"},
+  {"pathname":"化工桥西大鲁店北路 双向","pointx":"116.54692","pointy":"39.85379","title":"化工桥西大鲁店北路","description":" 双向"},
+  {"pathname":"京开金星桥南天桥双向","pointx":"116.350029","pointy":"39.765032","title":"京开金星桥南天桥","description":"双向，内侧车道和辅路不拍"},
+  {"pathname":"京石高速 南北向主辅路（存争议，80%可能不拍）","pointx":"116.245143","pointy":"39.86106","title":"京石高速","description":"南北向主辅路"},
+  {"pathname":"潘家园桥西 东西双向","pointx":"116.466229","pointy":"39.88192","title":"潘家园桥西","description":"东西双向"},
+  {"pathname":"酒仙桥北路（争议）","pointx":"116.510498","pointy":"39.994194","title":"酒仙桥北路","description":"双向"},
+  {"pathname":"和平西桥北 南向北","pointx":"116.424332","pointy":"39.9775","title":"和平西桥北","description":"南向北"},
+  {"pathname":"奥林西桥南 南北双向","pointx":"116.390435","pointy":"40.02688","title":"奥林西桥南","description":"南北双向"},
+  {"pathname":"安贞桥南天桥 南北双向","pointx":"116.414146","pointy":"39.971829","title":"安贞桥南天桥","description":"南北双向"},
+  {"pathname":"安宁庄京藏辅路桥下","pointx":"116.335305","pointy":"40.06051","title":"标题","description":"说明"},
+  {"pathname":"鲁谷桥东 东西双向（非机动车道不拍）","pointx":"116.219658","pointy":"39.909523","title":"鲁谷桥东","description":"东西双向，非机动车道不拍"},
+  {"pathname":"广渠门桥西 东西双向","pointx":"116.450576","pointy":"39.899334","title":"广渠门桥西","description":"东西双向"},
+  {"pathname":"金西桥东 西向东","pointx":"116.380242","pointy":"39.777497","title":"金西桥东","description":"西向东"},
+  {"pathname":"台湖收费站 进出京双向","pointx":"116.605309","pointy":"39.823323","title":"台湖收费站","description":"进出京双向"},
+  {"pathname":"祁年大街路口 东向西","pointx":"116.418711","pointy":"39.899304","title":"祁年大街路口","description":"东向西"},
+  {"pathname":"大黄庄桥西天桥 西向东 ","pointx":"116.54224","pointy":"39.922715","title":"大黄庄桥西天桥","description":"西向东"},
+  {"pathname":"陶然桥北 南北双向","pointx":"116.394244","pointy":"39.879438","title":"陶然桥北","description":"南北双向"},
+  {"pathname":"菜市口大街健宫医院附近","pointx":"116.38085","pointy":"39.887037","title":"菜市口大街","description":"健宫医院附件 南向北"},
+  {"pathname":"岳各庄桥双向","pointx":"116.284543","pointy":"39.881501","title":"标题","description":"说明"},
+  {"pathname":"林萃桥南 双向（北向南过地铁站进辅路不拍）","pointx":"116.380845","pointy":"40.027626","title":"林萃桥南","description":"南北双向，北向南过地铁站小区门口进辅路不拍，"},
+  {"pathname":"机场高速焦庄桥进京方向（内侧车道不拍待确认）","pointx":"116.591512","pointy":"39.956663","title":"机场第二高速进京方向焦庄桥","description":"走最内侧车道不拍，待确认"},
+  {"pathname":"马驹桥北 北向南","pointx":"116.573056","pointy":"39.760816","title":"马驹桥北","description":"北向南"},
+  {"pathname":"西四路口 西向东","pointx":"116.379925","pointy":"39.930062","title":"西四路口","description":"西向东"},
+  {"pathname":"政府街与西环路路口西向东","pointx":"116.233628","pointy":"40.225932","title":"政府街与西环路路口","description":"西向东"},
+  {"pathname":"永安公园路与西环路路口北侧南向北","pointx":"116.233585","pointy":"40.220398","title":"永安公园路与西环路路口北侧","description":"南向北"},
+  {"pathname":"南环路与鼓楼南街路口南向北","pointx":"116.240312","pointy":"40.218533","title":"南环路与鼓楼南街路口","description":"南向北"},
+  {"pathname":"南环路与东环路路口南向北","pointx":"116.247055","pointy":"40.218777","title":"南环路与东环路路口","description":"南向北"},
+  {"pathname":"南环路与亢山路路口南向北","pointx":"116.257008","pointy":"40.219318","title":"南环路与亢山路路口","description":"南向北"},
+  {"pathname":"府学路与水库路路口 东向西","pointx":"116.268444","pointy":"40.228087","title":"府学路与水库路路口","description":"东向西"},
+  {"pathname":"北环路与西环路交叉口（北向南）","pointx":"116.233192","pointy":"40.235014","title":"北环路与西环路交叉口","description":"北向南"},
+  {"pathname":"京沪大羊坊桥西 进出京双向","pointx":"116.508607","pointy":"39.827769","title":"京沪大羊坊桥西","description":"进出京双向"},
+  {"pathname":"功德寺桥南 南北双向","pointx":"116.26363","pointy":"40.007485","title":"功德寺桥南","description":"南北双向"},
+  {"pathname":"平房桥西 由东向西","pointx":"116.544486","pointy":"39.947645","title":"平房桥西","description":"由东向西"},
+  {"pathname":"机场辅路望京公园小铁门附近 双向","pointx":"116.503469","pointy":"40.001326","title":"机场辅路望京公园小铁门附近","description":" 双向"},
+  {"pathname":"富乐大街与迎宾路交汇 东向西","pointx":"116.646272","pointy":"40.348122","title":"富乐大街与迎宾路交汇","description":"东向西"},
+  {"pathname":"青春路环岛南 北向南","pointx":"116.636832","pointy":"40.34061","title":"标题","description":" 北向南"},
+  {"pathname":"南华大街与青春路交汇 西向东","pointx":"116.637842","pointy":"40.314943","title":"南华大街与青春路交汇","description":" 西向东"},
+  {"pathname":"开放路与兴怀大街交汇 南向北","pointx":"116.651334","pointy":"40.327623","title":"开放路与兴怀大街交汇","description":"  南向北"},
+  {"pathname":"迎宾路中医院路口附近 南向北","pointx":"116.643528","pointy":"40.325347","title":"迎宾路中医院路口附近","description":"南向北"},
+  {"pathname":"衙门口桥西 东西双向","pointx":"116.215315","pointy":"39.897989","title":"衙门口桥西","description":"东西双向"},
+  {"pathname":"康化桥西 双向","pointx":"116.529421","pointy":"39.842092","title":"康化桥西","description":"双向"},
+  {"pathname":"荣华桥北 南北双向（可走最内侧车道）","pointx":"116.494531","pointy":"39.82467","title":"荣华桥北","description":"南北双向，最内侧车道不拍"},
+  {"pathname":"京良路和樊羊路路口 东西双向","pointx":"116.32008","pointy":"39.794822","title":"京良路和樊羊路路口","description":"东西双向"},
+  {"pathname":"光明桥西 东西双向","pointx":"116.447994","pointy":"39.890259","title":"光明桥西","description":"东西双向"},
+  {"pathname":"西马庄收费站 双向","pointx":"116.638942","pointy":"39.922772","title":"西马庄收费站","description":"双向"},
+  {"pathname":"双桥东天桥 双向（最内侧车道不拍）","pointx":"116.594853","pointy":"39.915094","title":"双桥东天桥","description":"双向，最内侧车道不拍"},
+  
+  
+  {"pathname":"洋桥北 南北双向（最内侧车道不拍）","pointx":"116.393274","pointy":"39.865889","title":"洋桥北","description":"南北双向"},
+  {"pathname":"志远西桥北（注意：四方向都拍）","pointx":"116.408096","pointy":"39.772117","title":"志远西桥北","description":"北向南方向，内侧车道不拍"},
+  {"pathname":"增光路西口东 东西双向","pointx":"116.320022","pointy":"39.934037","title":"增光路西口东","description":"东西双向"},
+  {"pathname":"和平东桥南 南北双向","pointx":"116.431367","pointy":"39.973921","title":"和平东桥南","description":"南北双向"},
+  {"pathname":"京开高速玉泉营桥下 进京方向","pointx":"116.353029","pointy":"39.855366","title":"京开高速玉泉营桥下","description":"进京方向"},
+  {"pathname":"德茂桥西双向（最内侧车道拍不到）","pointx":"116.428725","pointy":"39.792286","title":"德茂桥西","description":"双向可走最内侧车道"},
+  {"pathname":"亢山前路与龙水路路口西10米处","pointx":"116.265216","pointy":"40.223611","title":"亢山前路与龙水路路口","description":"路口西10米处"},
+  {"pathname":"三环主辅路联想桥西，双向，主路避免走中间车道，辅路走外侧","pointx":"116.337632","pointy":"39.973156","title":"三环主辅路联想桥西","description":"双向，避免走中间车道，辅路走外侧"},
+  {"pathname":"天宁寺桥南 南北双向（待确认）","pointx":"116.359565","pointy":"39.902359","title":"天宁寺桥南","description":"双向，待确认"},
+  {"pathname":"右安门桥下 南北双向，避免走中间车道","pointx":"116.370811","pointy":"39.875213","title":"右安门桥下","description":"南北双向，一面一个，对准中间车道，可走内侧或外侧车道"},
+  {"pathname":"昌平南环东路与燕平路路口北 南向北","pointx":"116.251196","pointy":"40.21908","title":"昌平南环东路与燕平路路口北","description":"南向北"},
+  {"pathname":"西坝河南路 东北西南双向 靠近七圣南路交叉口","pointx":"116.443913","pointy":"39.969083","title":"西坝河南路","description":"东北西南双向，靠近七圣南路交叉口"},
+  {"pathname":"兴华桥下，南北双向（进京内侧车道不拍，出京方向辅路不拍）","pointx":"116.336723","pointy":"39.785112","title":"兴华桥下","description":"南北双向有等确认"},
+  {"pathname":"桦皮厂胡同北口 南北双向","pointx":"116.365565","pointy":"39.949926","title":"桦皮厂胡同北口","description":"南北双向"},
+  
+  {"pathname":"赵公口桥北 南北双向","pointx":"116.420503","pointy":"39.865235","title":"赵公口桥北","description":"南北双向"},
+  {"pathname":"四环主路小红门桥东 外环西向东，可走内侧车道","pointx":"116.469466","pointy":"39.83941","title":"四环主路小红门桥东","description":"外环西向东，可走内侧车道"},
+  {"pathname":"蓟门桥南东侧天桥由南向北，可走内侧车道","pointx":"116.361517","pointy":"39.967393","title":"蓟门桥南东侧天桥由南向北","description":"可走内侧车道"},
+  {"pathname":"西什库大街南向北","pointx":"116.386657","pointy":"39.930171","title":"西什库大街","description":"南向北"},
+  {"pathname":"南门仓胡同东口 西向东","pointx":"116.440419","pointy":"39.935451","title":"南门仓胡同东口","description":"西向东"},
+  {"pathname":"劲松桥下 东西双向","pointx":"116.467984","pointy":"39.89007","title":"劲松桥下","description":"东西双向"},
+  {"pathname":"亮马桥路与麦子店街交汇处西 东向西","pointx":"116.47486","pointy":"39.957038","title":"亮马桥路与麦子店街交汇处西","description":"东向西"},
+  {"pathname":"上清桥北天桥 主路双向","pointx":"116.358015","pointy":"40.031728","title":"上清桥北","description":"主路双向"},
+  {"pathname":"远通桥西天桥 由东向西","pointx":"116.544818","pointy":"39.915571","title":"远通桥西天桥","description":"东西双向"},
+  {"pathname":"方庄桥东外环 西向东","pointx":"116.45091","pointy":"39.864582","title":"方庄桥东外环 西向东","description":"方庄桥东外环 西向东"},
+  {"pathname":"联想桥南侧皂君庙路","pointx":"116.341057","pointy":"39.970272","title":"联想桥南侧皂君庙路","description":"联想桥南侧皂君庙路"},
+  {"pathname":"顾家庄桥南 南向北 早晚高峰拍，避开中间车道即可","pointx":"116.44653","pointy":"40.022529","title":"顾家庄桥南","description":"早晚高峰拍，走辅路或避开中间车道即可"},
+  {"pathname":"丰台大桥北内环 南向北（高峰期）","pointx":"116.28995","pointy":"39.855186","title":"丰台大桥北内环","description":"南向北(高峰期)"},
+  
+  
+  
+  
+  {"pathname":"光华桥西 东西双向，可走内侧车道","pointx":"116.46804","pointy":"39.919152","title":"光华桥西","description":"东西双向，可走内侧车道"},
+  
+  {"pathname":"昌平区北环路与东环路路口东向西","pointx":"116.246088","pointy":"40.235499","title":"昌平区北环路与东环路路口","description":"由东向西"},
+  
+  {"pathname":"安华桥南 南北双向","pointx":"116.401129","pointy":"39.972455","title":"安华桥南","description":"南北双向"},
+  
+  
+  {"pathname":"怀柔南大街与龙山东路交汇 西向东","pointx":"116.632228","pointy":"40.316419","title":"怀柔南大街与龙山东路交汇","description":"西向东"},
+  {"pathname":"大羊坊路五环内路口 南北双向","pointx":"116.517689","pointy":"39.82938","title":"大羊坊路五环内路口","description":"南北双向"},
+  {"pathname":"鼓楼西大街西口 东西双向 ","pointx":"116.387749","pointy":"39.953947","title":"鼓楼西大街西口","description":"东西双向"},
+  {"pathname":"石榴庄路与宋庄路交叉口 西向东","pointx":"116.434792","pointy":"39.851964","title":"石榴庄路与宋庄路交叉口","description":"西向东"},
+  {"pathname":"丰科路北口 南向北","pointx":"116.303684","pointy":"39.833969","title":"丰科路北口","description":"南向北"},
+  {"pathname":"机场高速三元桥南天桥 进京方向","pointx":"116.456598","pointy":"39.959488","title":"机场高速三元桥南天桥","description":"进京方向"},
+  
+  
+  {"pathname":"西三环丰益桥北内环 南向北","pointx":"116.320942","pointy":"39.866848","title":"西三环丰益桥北内环","description":"由南向北"},
+  {"pathname":"（只高峰期）奥林东路南天桥 南北双向","pointx":"116.406959","pointy":"40.017712","title":"奥林东路南天桥","description":"南北双向"},
+  {"pathname":"西三环新兴桥南内环 南向北","pointx":"116.316833","pointy":"39.908444","title":"西三环新兴桥南内环","description":"由南向北"},
+  {"pathname":"静安东街北口南 北向南","pointx":"116.456016","pointy":"39.965568","title":"静安东街北口南","description":"由北向南"},
+  {"pathname":"万泉河快速路肖家河桥南主路南向北","pointx":"116.293958","pointy":"40.018871","title":"万泉河快速路肖家河桥南主路","description":"由南向北"},
+  
+  
+  {"pathname":"万芳亭公园东路南口 南北双向","pointx":"116.384821","pointy":"39.864052","title":"万芳亭公园东路南口","description":"南北双向"},
+  {"pathname":"西罗园路口南 南北双向","pointx":"116.400694","pointy":"39.863811","title":"西罗园路口南","description":"南北双向"},
+  {"pathname":"亦庄桥北三台山路口 南北双向","pointx":"116.479017","pointy":"39.814507","title":"亦庄桥北三台山路口","description":"南北双向"},
+  {"pathname":"西三环丽泽桥北 内环南向北","pointx":"116.318274","pointy":"39.880068","title":"西三环丽泽桥北","description":"内环南向北"},
+  {"pathname":"东铁营桥北 南北双向","pointx":"116.438563","pointy":"39.865629","title":"东铁营桥北","description":"南北双向"},
+  {"pathname":"金宝街西口 东向西","pointx":"116.424253","pointy":"39.92179","title":"金宝街西口","description":"东向西"},
+
+  {"pathname":"东四西大街西口，西向东","pointx":"116.417861","pointy":"39.930525","title":"东四西大街西口","description":"西向东"},
+  {"pathname":"方庄桥北，南向北","pointx":"116.445101","pointy":"39.868007","title":"方庄桥北","description":"南向北"},
+  {"pathname":"丰北桥北外环 由北向南","pointx":"116.288586","pointy":"39.874479","title":"丰北桥北外环","description":"北向南"},
+  {"pathname":"大红门桥内环 东向西（走内侧车道没事）","pointx":"116.407441","pointy":"39.838589","title":"大红门桥内环","description":"东向西"},
+
+  
+  {"pathname":"师大北路与杏坛路路口，南向北","pointx":"116.367623","pointy":"39.97103","title":"师大北路与杏坛路路口","description":"南向北"},
+  {"pathname":"燕莎桥西 东西双向","pointx":"116.466315","pointy":"39.954626","title":"燕莎桥西 ","description":"东西双向"},
+  {"pathname":"延庆川北小区南门 东西双向（有人被拍）","pointx":"115.990007","pointy":"40.46762","title":"延庆川北小区附近","description":"方向不明"},
+  {"pathname":"蓟门桥东外环 由东向西","pointx":"116.366172","pointy":"39.97358","title":"蓟门桥东外环","description":"由东向西"},
+  {"pathname":"顺于路南法信地铁站附近 东西双向","pointx":"116.616692","pointy":"40.134148","title":"顺于路南法信地铁站附近","description":"东西双向"},
+  {"pathname":"延庆康安小区东南门南北双向","pointx":"115.9765","pointy":"40.460761","title":"康安小区东南门南北双向","description":"康安小区东南门南北双向"},
+
+  {"pathname":"西直门内大街 西向东方向","pointx":"116.373116","pointy":"39.946478","title":"西直门内大街","description":"西向东方向"},
+  {"pathname":"北京南站南口北 由北向南","pointx":"116.382863","pointy":"39.867197","title":"北京南站南口北","description":"由北向南"},
+  {"pathname":"右安南桥桥下 南北双向","pointx":"116.371513","pointy":"39.860866","title":"右安南桥桥下","description":"南北双向"},
+  {"pathname":"三元东桥南 北向南","pointx":"116.465291","pointy":"39.959304","title":"三元东桥南","description":"北向南"},
+  {"pathname":"肖家河桥北 南北双向","pointx":"116.29027","pointy":"40.025692","title":"肖家河桥北","description":"南北双向"},
+  {"pathname":"四环主路窑洼湖桥北 外环南向北（这个不一定）","pointx":"116.496291","pointy":"39.893151","title":"四环主路窑洼湖桥北","description":"外环南向北"},
+  {"pathname":"三环主路赵公口桥东天桥 由西向东","pointx":"116.4237","pointy":"39.863261","title":"三环主路赵公口桥东天桥","description":"由西向东"},
+  {"pathname":"东苇路 由南向北辅路不拍","pointx":"116.569625","pointy":"40.01884","title":"东苇路","description":"由南向北辅路不拍"}
+
             
             
 ]
