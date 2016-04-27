@@ -229,7 +229,10 @@
 
   {"pathname":"昌平区南环路与西环路路口 西向东","pointx":"116.233758","pointy":"40.218062","title":"昌平区南环路与西环路路口","description":"西向东"},
   {"pathname":"天宁寺桥南 南北双向（待确认）","pointx":"116.359565","pointy":"39.902359","title":"天宁寺桥南","description":"双向，待确认"},
-  {"pathname":"天宁寺桥下 东西双向","pointx":"116.356134","pointy":"39.903502","title":"天宁寺桥下","description":"东西双向"}
+  {"pathname":"天宁寺桥下 东西双向","pointx":"116.356134","pointy":"39.903502","title":"天宁寺桥下","description":"东西双向"},
+  
+  {"pathname":"广渠门桥西天桥 东西双向","pointx":"116.444408","pointy":"39.899591","title":"","description":"东西双向"}
+  
 
 
   ]
