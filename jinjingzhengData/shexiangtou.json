@@ -231,8 +231,22 @@
   {"pathname":"天宁寺桥南 南北双向（待确认）","pointx":"116.359565","pointy":"39.902359","title":"天宁寺桥南","description":"双向，待确认"},
   {"pathname":"天宁寺桥下 东西双向","pointx":"116.356134","pointy":"39.903502","title":"天宁寺桥下","description":"东西双向"},
   
-  {"pathname":"广渠门桥西天桥 东西双向","pointx":"116.444408","pointy":"39.899591","title":"","description":"东西双向"}
+  {"pathname":"广渠门桥西天桥 东西双向","pointx":"116.444408","pointy":"39.899591","title":"","description":"东西双向"},
   
+
+
+  {"pathname":"桦皮厂胡同 南向北","pointx":"116.365615","pointy":"39.94895","title":"桦皮厂胡同","description":"南向北"},
+{"pathname":"四支路大桥南侧 双向","pointx":"116.579098","pointy":"39.774164","title":"四支路大桥南侧","description":"双向"},
+{"pathname":"延庆康安小区东南门 双向","pointx":"115.975576","pointy":"40.459929","title":"延庆康安小区东南门","description":"双向"},
+{"pathname":"十里堡路口西侧 东西双向","pointx":"116.504988","pointy":"39.929117","title":"十里堡路口西侧","description":"双向"},
+{"pathname":"紫竹院路车道沟桥西 东西双向 ","pointx":"116.301189","pointy":"39.953817","title":"紫竹院路车道沟桥西","description":"双向","biaozhu":"1"},
+{"pathname":"双清路与荷清路交汇口 东北和西南双向","pointx":"116.34367","pointy":"40.004289","title":"双清路与荷清路交汇口","description":"东北和西南双向","biaozhu":"1"},
+{"pathname":"东安街北口 北向南","pointx":"116.288909","pointy":"39.855026","title":"东安街北口","description":"北向南","biaozhu":"1"}
+
+
+
+
+
 
 
   ]
