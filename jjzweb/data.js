@@ -206,8 +206,36 @@ var data = [
   {"pathname":"肖家河桥北 南北双向","pointx":"116.29027","pointy":"40.025692","title":"肖家河桥北","description":"南北双向"},
   {"pathname":"四环主路窑洼湖桥北 外环南向北（这个不一定）","pointx":"116.496291","pointy":"39.893151","title":"四环主路窑洼湖桥北","description":"外环南向北"},
   {"pathname":"三环主路赵公口桥东天桥 由西向东","pointx":"116.4237","pointy":"39.863261","title":"三环主路赵公口桥东天桥","description":"由西向东"},
-  {"pathname":"东苇路 由南向北辅路不拍","pointx":"116.569625","pointy":"40.01884","title":"东苇路","description":"由南向北辅路不拍"}
+  {"pathname":"东苇路 由南向北辅路不拍","pointx":"116.569625","pointy":"40.01884","title":"东苇路","description":"由南向北辅路不拍"},
 
-            
-            
+  {"pathname":"安定门桥南 北向南","pointx":"116.414596","pointy":"39.954333","title":"安定门桥南","description":"北向南"},
+  {"pathname":"怀柔区怀柔招商局路口东向西","pointx":"116.643978","pointy":"40.329444","title":"怀柔区怀柔招商局路口","description":"东向西"},
+  {"pathname":"小街桥南 南向北","pointx":"116.431955","pointy":"39.953911","title":"小街桥南","description":"南向北"},
+  {"pathname":"公益西桥南第一红绿灯 南向北","pointx":"116.373125","pointy":"39.828596","title":"公益西桥南第一红绿灯","description":"南向北"},
+  
+  {"pathname":"永定门桥北 北向南","pointx":"116.40421","pointy":"39.883044","title":"永定门桥北","description":"北向南"},
+
+
+  {"pathname":"簋街花家怡园东 东向西","pointx":"116.40421","pointy":"39.883044","title":"簋街花家怡园东","description":"东向西"},
+  {"pathname":"延庆夏都大桥北 南向北","pointx":"116.40421","pointy":"39.883044","title":"延庆夏都大桥北","description":"南向北"},
+  {"pathname":"京藏高速3.050KM，北向南","pointx":"116.379971","pointy":"40.00306","title":"京藏高速3.050KM","description":"北向南"},
+  {"pathname":"旧忠桥北 南北双向","pointx":"116.458517","pointy":"39.798169","title":"旧忠桥北","description":"南北双向"},
+  {"pathname":"昌平区南环路与西环路路口 西向东","pointx":"116.233758","pointy":"40.218062","title":"昌平区南环路与西环路路口","description":"西向东"},
+
+  {"pathname":"怀柔区迎宾路南大街交口（石油灯岗路口）南向北","pointx":"116.644274","pointy":"40.319502","title":"怀柔区迎宾路南大街交口（石油灯岗路口）南向北","description":"南向北"},
+  {"pathname":"怀柔四中路口(南北双向)","pointx":"116.636827","pointy":"40.339227","title":"怀柔四中路口(北向南)","description":"北向南"},
+
+  {"pathname":"昌平区南环路与西环路路口 西向东","pointx":"116.233758","pointy":"40.218062","title":"昌平区南环路与西环路路口","description":"西向东"},
+  {"pathname":"天宁寺桥南 南北双向（待确认）","pointx":"116.359565","pointy":"39.902359","title":"天宁寺桥南","description":"双向，待确认"},
+  {"pathname":"天宁寺桥下 东西双向","pointx":"116.356134","pointy":"39.903502","title":"天宁寺桥下","description":"东西双向"},
+  
+  {"pathname":"广渠门桥西天桥 东西双向","pointx":"116.444408","pointy":"39.899591","title":"","description":"东西双向"},
+
+  {"pathname":"桦皮厂胡同 南向北","pointx":"116.365615","pointy":"39.94895","title":"桦皮厂胡同","description":"南向北"},
+  {"pathname":"四支路大桥南侧 双向","pointx":"116.579098","pointy":"39.774164","title":"四支路大桥南侧","description":"双向"},
+  {"pathname":"延庆康安小区东南门 双向","pointx":"115.975576","pointy":"40.459929","title":"延庆康安小区东南门","description":"双向"},
+  {"pathname":"十里堡路口西侧 东西双向","pointx":"116.504988","pointy":"39.929117","title":"十里堡路口西侧","description":"双向"},
+  {"pathname":"紫竹院路车道沟桥西 东西双向 ","pointx":"116.301189","pointy":"39.953817","title":"紫竹院路车道沟桥西","description":"双向","biaozhu":"1"},
+  {"pathname":"双清路与荷清路交汇口 东北和西南双向","pointx":"116.34367","pointy":"40.004289","title":"双清路与荷清路交汇口","description":"东北和西南双向","biaozhu":"1"},
+  {"pathname":"东安街北口 北向南","pointx":"116.288909","pointy":"39.855026","title":"东安街北口","description":"北向南","biaozhu":"1"}
 ]
