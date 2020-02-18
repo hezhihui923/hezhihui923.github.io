@@ -237,5 +237,8 @@ var data = [
   {"pathname":"十里堡路口西侧 东西双向","pointx":"116.504988","pointy":"39.929117","title":"十里堡路口西侧","description":"双向"},
   {"pathname":"紫竹院路车道沟桥西 东西双向 ","pointx":"116.301189","pointy":"39.953817","title":"紫竹院路车道沟桥西","description":"双向","biaozhu":"1"},
   {"pathname":"双清路与荷清路交汇口 东北和西南双向","pointx":"116.34367","pointy":"40.004289","title":"双清路与荷清路交汇口","description":"东北和西南双向","biaozhu":"1"},
-  {"pathname":"东安街北口 北向南","pointx":"116.288909","pointy":"39.855026","title":"东安街北口","description":"北向南","biaozhu":"1"}
+  {"pathname":"东安街北口 北向南","pointx":"116.288909","pointy":"39.855026","title":"东安街北口","description":"北向南","biaozhu":"1"},
+  {"pathname":"宏达南路与康定街交叉口","pointx":"116.53913","pointy":"39.77606","title":"宏达南路与康定街交叉口","description":"东西","biaozhu":"1"},
+  {"pathname":"漷马路马驹桥1号桥北","pointx":"116.55187","pointy":"39.75271","title":"漷马路马驹桥","description":"双向","biaozhu":"1"},
+  {"pathname":"太和东桥","pointx":"116.526408","pointy":"39.748472","title":"太和东桥","description":"双向","biaozhu":"1"}
 ]
