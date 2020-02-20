@@ -133,7 +133,6 @@
   {"pathname":"德茂桥西双向（最内侧车道拍不到）","pointx":"116.428725","pointy":"39.792286","title":"德茂桥西","description":"双向可走最内侧车道"},
   {"pathname":"亢山前路与龙水路路口西10米处","pointx":"116.265216","pointy":"40.223611","title":"亢山前路与龙水路路口","description":"路口西10米处"},
   {"pathname":"三环主辅路联想桥西，双向，主路避免走中间车道，辅路走外侧","pointx":"116.337632","pointy":"39.973156","title":"三环主辅路联想桥西","description":"双向，避免走中间车道，辅路走外侧"},
-  
   {"pathname":"右安门桥下 南北双向，避免走中间车道","pointx":"116.370811","pointy":"39.875213","title":"右安门桥下","description":"南北双向，一面一个，对准中间车道，可走内侧或外侧车道"},
   {"pathname":"昌平南环东路与燕平路路口北 南向北","pointx":"116.251196","pointy":"40.21908","title":"昌平南环东路与燕平路路口北","description":"南向北"},
   {"pathname":"西坝河南路 东北西南双向 靠近七圣南路交叉口","pointx":"116.443913","pointy":"39.969083","title":"西坝河南路","description":"东北西南双向，靠近七圣南路交叉口"},
@@ -153,8 +152,6 @@
   {"pathname":"联想桥南侧皂君庙路","pointx":"116.341057","pointy":"39.970272","title":"联想桥南侧皂君庙路","description":"联想桥南侧皂君庙路"},
   {"pathname":"顾家庄桥南 南向北 早晚高峰拍，避开中间车道即可","pointx":"116.44653","pointy":"40.022529","title":"顾家庄桥南","description":"早晚高峰拍，走辅路或避开中间车道即可"},
   {"pathname":"丰台大桥北内环 南向北（高峰期）","pointx":"116.28995","pointy":"39.855186","title":"丰台大桥北内环","description":"南向北(高峰期)"},
-  
-  
   
   
   {"pathname":"光华桥西 东西双向，可走内侧车道","pointx":"116.46804","pointy":"39.919152","title":"光华桥西","description":"东西双向，可走内侧车道"},
@@ -208,7 +205,6 @@
   {"pathname":"三环主路赵公口桥东天桥 由西向东","pointx":"116.4237","pointy":"39.863261","title":"三环主路赵公口桥东天桥","description":"由西向东"},
   {"pathname":"东苇路 由南向北辅路不拍","pointx":"116.569625","pointy":"40.01884","title":"东苇路","description":"由南向北辅路不拍"},
 
-
   {"pathname":"安定门桥南 北向南","pointx":"116.414596","pointy":"39.954333","title":"安定门桥南","description":"北向南"},
   {"pathname":"怀柔区怀柔招商局路口东向西","pointx":"116.643978","pointy":"40.329444","title":"怀柔区怀柔招商局路口","description":"东向西"},
   {"pathname":"小街桥南 南向北","pointx":"116.431955","pointy":"39.953911","title":"小街桥南","description":"南向北"},
@@ -226,15 +222,12 @@
   {"pathname":"怀柔区迎宾路南大街交口（石油灯岗路口）南向北","pointx":"116.644274","pointy":"40.319502","title":"怀柔区迎宾路南大街交口（石油灯岗路口）南向北","description":"南向北"},
   {"pathname":"怀柔四中路口(南北双向)","pointx":"116.636827","pointy":"40.339227","title":"怀柔四中路口(北向南)","description":"北向南"},
 
-
   {"pathname":"昌平区南环路与西环路路口 西向东","pointx":"116.233758","pointy":"40.218062","title":"昌平区南环路与西环路路口","description":"西向东"},
   {"pathname":"天宁寺桥南 南北双向（待确认）","pointx":"116.359565","pointy":"39.902359","title":"天宁寺桥南","description":"双向，待确认"},
   {"pathname":"天宁寺桥下 东西双向","pointx":"116.356134","pointy":"39.903502","title":"天宁寺桥下","description":"东西双向"},
   
   {"pathname":"广渠门桥西天桥 东西双向","pointx":"116.444408","pointy":"39.899591","title":"","description":"东西双向"},
   
-
-
   {"pathname":"桦皮厂胡同 南向北","pointx":"116.365615","pointy":"39.94895","title":"桦皮厂胡同","description":"南向北"},
 {"pathname":"四支路大桥南侧 双向","pointx":"116.579098","pointy":"39.774164","title":"四支路大桥南侧","description":"双向"},
 {"pathname":"延庆康安小区东南门 双向","pointx":"115.975576","pointy":"40.459929","title":"延庆康安小区东南门","description":"双向"},
@@ -243,13 +236,15 @@
 {"pathname":"双清路与荷清路交汇口 东北和西南双向","pointx":"116.34367","pointy":"40.004289","title":"双清路与荷清路交汇口","description":"东北和西南双向","biaozhu":"1"},
 {"pathname":"东安街北口 北向南","pointx":"116.288909","pointy":"39.855026","title":"东安街北口","description":"北向南","biaozhu":"1"},
 
-
   {"pathname":"宏达南路与康定街交叉口","pointx":"116.53913","pointy":"39.77606","title":"宏达南路与康定街交叉口","description":"东西","biaozhu":"1"},
   {"pathname":"漷马路马驹桥1号桥北","pointx":"116.55187","pointy":"39.75271","title":"漷马路马驹桥","description":"双向","biaozhu":"1"},
-  {"pathname":"太和东桥","pointx":"116.526408","pointy":"39.748472","title":"太和东桥","description":"双向","biaozhu":"1"}
-
-
-
+  {"pathname":"太和东桥","pointx":"116.526408","pointy":"39.748472","title":"太和东桥","description":"南北双向","biaozhu":"1"},
+  
+  {"pathname":"西周路马驹桥2号桥北","pointx":"116.56332","pointy":"39.75248","title":"西周路马驹桥2号桥北","description":"南北双向","biaozhu":"1"},
+  {"pathname":"融商六路马驹桥东站西","pointx":"116.58341","pointy":"39.76204","title":"融商六路马驹桥东站西","description":"南北双向","biaozhu":"1"},
+  {"pathname":"兴贸南街马团路口","pointx":"116.60787","pointy":"39.76691","title":"兴贸南街马团路口","description":"东西双向","biaozhu":"1"},
+  {"pathname":"四支路马驹桥6号桥北","pointx":"116.58903","pointy":"39.76198","title":"四支路马驹桥6号桥北","description":"南北双向","biaozhu":"1"},
+  {"pathname":"黄马路马驹桥1号桥西","pointx":"116.55168","pointy":"39.75262","title":"黄马路马驹桥1号桥西","description":"东西双向","biaozhu":"1"}
 
 
   ]
