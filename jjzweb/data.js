@@ -236,14 +236,14 @@ var data = [
   {"pathname":"双清路与荷清路交汇口 东北和西南双向","pointx":"116.34367","pointy":"40.004289","title":"双清路与荷清路交汇口","description":"东北和西南双向","biaozhu":"1"},
   {"pathname":"东安街北口 北向南","pointx":"116.288909","pointy":"39.855026","title":"东安街北口","description":"北向南","biaozhu":"1"},
   
-  {"pathname":"宏达南路与康定街交叉口","pointx":"116.53913","pointy":"39.77606","title":"宏达南路与康定街交叉口","description":"东西","biaozhu":"1"},
-  {"pathname":"漷马路马驹桥1号桥北","pointx":"116.55187","pointy":"39.75271","title":"漷马路马驹桥","description":"双向","biaozhu":"1"},
-  {"pathname":"太和东桥","pointx":"116.526408","pointy":"39.748472","title":"太和东桥","description":"南北双向","biaozhu":"1"},
+  {"pathname":"宏达南路与康定街交叉口(东西双向)","pointx":"116.53913","pointy":"39.77606","title":"宏达南路与康定街交叉口","description":"东西","biaozhu":"1"},
+  {"pathname":"漷马路马驹桥1号桥北(南北双向)","pointx":"116.55187","pointy":"39.75271","title":"漷马路马驹桥","description":"双向","biaozhu":"1"},
+  {"pathname":"太和东桥(南北双向)","pointx":"116.526408","pointy":"39.748472","title":"太和东桥","description":"南北双向","biaozhu":"1"},
   
-  {"pathname":"西周路马驹桥2号桥北","pointx":"116.56332","pointy":"39.75248","title":"西周路马驹桥2号桥北","description":"南北双向","biaozhu":"1"},
-  {"pathname":"融商六路马驹桥东站西","pointx":"116.58341","pointy":"39.76204","title":"融商六路马驹桥东站西","description":"南北双向","biaozhu":"1"},
-  {"pathname":"兴贸南街马团路口","pointx":"116.60787","pointy":"39.76691","title":"兴贸南街马团路口","description":"东西双向","biaozhu":"1"},
-  {"pathname":"四支路马驹桥6号桥北","pointx":"116.58903","pointy":"39.76198","title":"四支路马驹桥6号桥北","description":"南北双向","biaozhu":"1"},
-  {"pathname":"黄马路马驹桥1号桥西","pointx":"116.55168","pointy":"39.75262","title":"黄马路马驹桥1号桥西","description":"东西双向","biaozhu":"1"}
+  {"pathname":"西周路马驹桥2号桥北(南北双向)","pointx":"116.56332","pointy":"39.75248","title":"西周路马驹桥2号桥北","description":"南北双向","biaozhu":"1"},
+  {"pathname":"融商六路马驹桥东站西(南北双向)","pointx":"116.58341","pointy":"39.76204","title":"融商六路马驹桥东站西","description":"南北双向","biaozhu":"1"},
+  {"pathname":"兴贸南街马团路口(东西双向)","pointx":"116.60787","pointy":"39.76691","title":"兴贸南街马团路口","description":"东西双向","biaozhu":"1"},
+  {"pathname":"四支路马驹桥6号桥北(南北双向)","pointx":"116.58903","pointy":"39.76198","title":"四支路马驹桥6号桥北","description":"南北双向","biaozhu":"1"},
+  {"pathname":"黄马路马驹桥1号桥西(东西双向)","pointx":"116.55168","pointy":"39.75262","title":"黄马路马驹桥1号桥西","description":"东西双向","biaozhu":"1"}
 
 ]
